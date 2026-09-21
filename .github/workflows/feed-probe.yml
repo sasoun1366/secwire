@@ -1,44 +1,69 @@
 name: feed probe
 
-# Feeds sometimes refuse a data-centre IP, or a bot-shaped User-Agent, or both — and
-# the answer changes without warning. This asks every source, from a runner, with the
-# three headers secwire might send, and prints what came back. Run it when a source
-# shows up as a complaint in the daily log.
+# Feeds sometimes refuse a data-centre IP, or a bot-shaped header, or both — and the
+# answer changes without warning. Seen in the wild: CISA answered 403 to the daily job
+# and 200 to a probe minutes later from the same runner pool. This asks one source a
+# set of header combinations and prints the codes, so the fix is evidence and not a
+# guess. Run it from Actions → feed probe → Run workflow.
 on:
   workflow_dispatch:
+    inputs:
+      url:
+        description: "the feed to interrogate"
+        default: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+        type: string
 
 jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Ask every feed, three ways
+      - name: Ask one feed, several ways
+        env:
+          TARGET: ${{ inputs.url }}
         run: |
           python3 - <<'PY'
-          import urllib.request, urllib.error
-          from secwire.sources import SOURCES
+          import os, urllib.request, urllib.error
 
-          agents = {
-              "secwire": "secwire/0.1 (+https://github.com/sasoun1366/secwire)",
-              "browser": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                          "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
-              "feedreader": "FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)",
-          }
-          print("%-9s %-34s %s" % ("source", "url", " | ".join(agents)))
-          for source in SOURCES:
-              row = []
-              for label, agent in agents.items():
-                  request = urllib.request.Request(source.url, headers={
-                      "User-Agent": agent,
-                      "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.5",
-                  })
-                  try:
-                      with urllib.request.urlopen(request, timeout=25) as response:
-                          body = response.read()
-                          row.append("%s=%d/%dk" % (label, response.status, len(body) // 1024))
-                  except urllib.error.HTTPError as exc:
-                      row.append("%s=%s" % (label, exc.code))
-                  except Exception as exc:
-                      row.append("%s=%s" % (label, type(exc).__name__))
-              print("%-9s %-34s %s" % (source.key, source.url[:34], " | ".join(row)))
+          target = os.environ["TARGET"]
+          our_ua = "secwire/0.1 (+https://github.com/sasoun1366/secwire)"
+          browser = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+          feed_accept = ("application/rss+xml, application/atom+xml, application/xml, "
+                         "text/xml, text/html;q=0.9, */*;q=0.5")
+
+          tries = [
+              ("plain",                 {}),
+              ("ua only",               {"User-Agent": our_ua}),
+              ("ua+accept",             {"User-Agent": our_ua, "Accept": feed_accept}),
+              ("ua+accept+gzip",        {"User-Agent": our_ua, "Accept": feed_accept,
+                                         "Accept-Encoding": "gzip"}),
+              ("ua+gzip",               {"User-Agent": our_ua, "Accept-Encoding": "gzip"}),
+              ("browser+accept+gzip",   {"User-Agent": browser, "Accept": feed_accept,
+                                         "Accept-Encoding": "gzip"}),
+          ]
+          print("asking %s" % target)
+          for label, headers in tries:
+              request = urllib.request.Request(target, headers=headers)
+              try:
+                  with urllib.request.urlopen(request, timeout=25) as response:
+                      body = response.read()
+                      print("  %-22s %s  %dk  server=%s" % (
+                          label, response.status, len(body) // 1024,
+                          response.headers.get("Server", "?")))
+              except urllib.error.HTTPError as exc:
+                  print("  %-22s HTTP %s" % (label, exc.code))
+              except Exception as exc:
+                  print("  %-22s %s" % (label, type(exc).__name__))
+          print()
+          print("also, the same headers secwire sends, twice in a row:")
+          for round_number in (1, 2):
+              request = urllib.request.Request(target, headers={
+                  "User-Agent": our_ua, "Accept": feed_accept, "Accept-Encoding": "gzip"})
+              try:
+                  with urllib.request.urlopen(request, timeout=25) as response:
+                      print("  attempt %d: %s %dk" % (round_number, response.status,
+                                                      len(response.read()) // 1024))
+              except urllib.error.HTTPError as exc:
+                  print("  attempt %d: HTTP %s" % (round_number, exc.code))
           PY
