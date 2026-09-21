@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# test / tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# state written by a local run of `secwire post` (in CI it lives in ./state)
+state/
+*.log
+
+# internal notes — not published
+PLAN.md

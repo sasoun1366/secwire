@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<channel>
+<ns0:link href="https://isc.sans.edu/rssfeed.xml" rel="self" type="application/rss+xml" />
+<title>SANS Internet Storm Center, InfoCON: green</title>
+<ns0:link href="https://isc.sans.edu/rssfeed.xml" rel="self" type="application/rss+xml" /><link>https://isc.sans.edu</link><description>SANS Internet Storm Center - Cooperative Cyber Security Monitor</description><language>   en-us</language><lastBuildDate>   Mon, 21 Sep 2026 14:15:03 +0000</lastBuildDate><pubDate>Mon, 21 Sep 2026 10:33:53 GMT</pubDate><copyright>(C) SANS Institute 2026</copyright>
+             <generator>isc rss feed maker</generator>
+             <ttl>30</ttl>
+             <webMaster>handlers@sans.org (ISC Handlers)</webMaster>
+             <image>
+               <title>SANS Internet Storm Center, InfoCON: green</title>
+               <url>https://isc.sans.edu/images/status.gif</url>
+               <link>https://isc.sans.edu</link>
+             </image>
+  <item>
+    <title>TerminalFix: PNG Steganography, (Mon, Sep 21st)</title>
+    <link>https://isc.sans.edu/diary/rss/33318</link>    <guid>https://isc.sans.edu/diary/rss/33318</guid><description> Microsoft Security Research published an interesting blog post "TerminalFix campaign deploys a reverse tunnel through multistage intrusion" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG files with steganography. I reached out to the researchers and they kindly shared the IOCs for the PNG files with me.&amp;#xd;</description><ns1:encoded>Microsoft Security Research published an interesting blog post &amp;quot;TerminalFix campaign deploys a reverse tunnel through multistage intrusion&amp;quot; about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG files with steganography. I reached out to the researchers and they kindly shared the IOCs for the PNG files with me.</ns1:encoded>    <pubDate>Mon, 21 Sep 2026 10:33:53 GMT</pubDate>  </item>  <item>
+    <title>ISC Stormcast For Monday, September 21st, 2026 https://isc.sans.edu/podcastdetail/10102, (Mon, Sep 21st)</title>
+    <link>https://isc.sans.edu/diary/rss/33354</link>    <guid>https://isc.sans.edu/diary/rss/33354</guid>    <pubDate>Mon, 21 Sep 2026 05:15:12 GMT</pubDate>  </item>  <item>
+    <title>HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)</title>
+    <link>https://isc.sans.edu/diary/rss/33352</link>    <guid>https://isc.sans.edu/diary/rss/33352</guid><description> In June 2026 the IETF published RFC 10008&amp;#x5b;1&amp;#x5d;, defining a new HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it&amp;#x27s the first new standard HTTP verb since "PATCH" in 2010&amp;#x21;&amp;#xd;</description><ns1:encoded>In June 2026 the IETF published RFC 10008[1], defining a new HTTP method: &amp;quot;QUERY&amp;quot;. The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it&amp;rsquo;s the first new standard HTTP verb since &amp;quot;PATCH&amp;quot; in 2010!</ns1:encoded>    <pubDate>Sat, 19 Sep 2026 04:51:46 GMT</pubDate>  </item>  <item>
+    <title>ISC Stormcast For Friday, September 18th, 2026 https://isc.sans.edu/podcastdetail/10100, (Fri, Sep 18th)</title>
+    <link>https://isc.sans.edu/diary/rss/33350</link>    <guid>https://isc.sans.edu/diary/rss/33350</guid>    <pubDate>Fri, 18 Sep 2026 02:00:02 GMT</pubDate>  </item>  </channel>
+</rss>

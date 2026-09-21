@@ -1,0 +1,71 @@
+name: daily post
+
+on:
+  schedule:
+    # 10:00 in Tehran (UTC+3:30, no daylight saving) is 06:30 UTC. GitHub's scheduler
+    # runs in UTC and can be a few minutes late at busy times — which is fine: the post
+    # goes out in the same order with the same content whenever the runner starts.
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Build the post and print it without sending it"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write          # the job commits the memory back
+
+concurrency:
+  group: daily-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    env:
+      SECWIRE_HOME: ${{ github.workspace }}/state
+      SECWIRE_TELEGRAM_TOKEN: ${{ secrets.SECWIRE_TELEGRAM_TOKEN }}
+      SECWIRE_CHAT_ID: ${{ secrets.SECWIRE_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -e .
+
+      - name: Check the job has what it needs
+        # Fails early and loudly if the two secrets are missing, instead of quietly
+        # posting nothing once a day. Use the dry-run input to test without them.
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          test -n "$SECWIRE_TELEGRAM_TOKEN" || { echo "::error::SECWIRE_TELEGRAM_TOKEN is not set"; exit 1; }
+          test -n "$SECWIRE_CHAT_ID" || { echo "::error::SECWIRE_CHAT_ID is not set"; exit 1; }
+          python -m secwire doctor
+
+      - name: Pick the story of the day and post it
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python -m secwire post --dry-run --channel "$SECWIRE_CHAT_ID"
+          else
+            python -m secwire post
+          fi
+
+      - name: Remember what was posted
+        # A runner starts with a clean disk every day, so the memory of what has
+        # already been said has to live in the repository.
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          # `state/` is ignored for local runs, so the memory a person accumulates on
+          # their own machine never lands in the repository — only the runner's does.
+          git add -f state
+          if git diff --cached --quiet; then
+            echo "nothing to remember today"
+            exit 0
+          fi
+          git config user.name "secwire"
+          git config user.email "secwire@users.noreply.github.com"
+          git commit -m "state: $(date -u +%Y-%m-%d) post"
+          git push

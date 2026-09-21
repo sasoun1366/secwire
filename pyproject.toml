@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secwire"
+version = "0.1.0"
+description = "One network-security story a day, posted to a Telegram channel - feeds in, bilingual post out, on a schedule."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "sasoun1366" }]
+requires-python = ">=3.9"
+keywords = ["security", "news", "telegram", "bot", "daily", "feeds", "rss", "persian", "cron"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Telecommunications Industry",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Communications :: Chat",
+    "Topic :: Security",
+    "Topic :: Utilities",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+# Only to redraw secwire/assets/cover.png. The daily post never needs Pillow.
+cover = ["pillow>=10.0"]
+
+[project.urls]
+Homepage = "https://github.com/sasoun1366/secwire"
+Issues = "https://github.com/sasoun1366/secwire/issues"
+Channel = "https://t.me/luyavaai"
+
+[project.scripts]
+secwire = "secwire.cli:main"
+
+[tool.setuptools]
+packages = ["secwire"]
+
+[tool.setuptools.package-data]
+secwire = ["fixtures/*.xml", "fixtures/*.html", "fixtures/*.json", "assets/*.png", "assets/*.txt", "assets/*.ttf"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

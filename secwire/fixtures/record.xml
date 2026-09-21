@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+    <channel>
+        <title>The Record from Recorded Future News</title>
+        <link>https://therecord.media/feed</link>
+        <description>The Record by Recorded Future News gives exclusive, behind-the-scenes access to leaders, policymakers, researchers, and the shadows of the cyber underground.</description>
+        <lastBuildDate>Mon, 21 Sep 2026 14:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>The Record from Recorded Future News</generator>
+        <language>en</language>
+        <copyright>Copyright © 2026 | The Record from Recorded Future News</copyright>
+        <item>
+            <title>ShinyHunters cybercrime gang takes over Cl0p ransomware site, demands extortion payment</title>
+            <link>https://therecord.media/shinyhunters-clop-cyberattack-website</link>
+            <guid>https://therecord.media/shinyhunters-clop-cyberattack-website</guid>
+            <pubDate>Mon, 21 Sep 2026 14:00:00 GMT</pubDate>
+            <description>The ShinyHunters extortion group hijacked the dark web leak site of the prolific Cl0p ransomware gang, according to material posted on the site over the weekend.</description>
+            <category>News</category>
+            <category>Cybercrime</category>
+            <enclosure url="http://cms.therecord.media/uploads/laptop_3_4d42c4a9d1.jpg" length="0" type="image/jpg" />
+        </item>
+        <item>
+            <title>LinkedIn wins court order blocking mass scraping of user data</title>
+            <link>https://therecord.media/linkedin-wins-court-order-blocking-mass-scraping</link>
+            <guid>https://therecord.media/linkedin-wins-court-order-blocking-mass-scraping</guid>
+            <pubDate>Mon, 21 Sep 2026 12:55:00 GMT</pubDate>
+            <description>The agreement between LinkedIn, ProAPIs and joint business operator Netswift also requires the firms to stop selling and transferring the data, no longer access LinkedIn through fake accounts and delete the data that was scraped, according to a senior LinkedIn executive. </description>
+            <category>News</category>
+            <category>News Briefs</category>
+            <category>Privacy</category>
+            <enclosure url="http://cms.therecord.media/uploads/Linked_In_8e71066ba6.jpg" length="0" type="image/jpg" />
+        </item>
+        <item>
+            <title>Google says Gemini breached three companies during security test</title>
+            <link>https://therecord.media/gemini-google-cyber-breach</link>
+            <guid>https://therecord.media/gemini-google-cyber-breach</guid>
+            <pubDate>Mon, 21 Sep 2026 12:30:00 GMT</pubDate>
+            <description>Google’s artificial intelligence model Gemini accessed computer systems belonging to three real companies without authorization during a cybersecurity test in May — the latest in a string of similar incidents. </description>
+            <category>News</category>
+            <category>News Briefs</category>
+            <category>Industry</category>
+            <enclosure url="http://cms.therecord.media/uploads/G_Emini_a6fbe1b9f0.jpg" length="0" type="image/jpg" />
+        </item>
+        <item>
+            <title>Russia reports thousands of cyberattacks on election infrastructure during vote</title>
+            <link>https://therecord.media/russia-reports-cyberattacks-during-election</link>
+            <guid>https://therecord.media/russia-reports-cyberattacks-during-election</guid>
+            <pubDate>Sun, 20 Sep 2026 23:00:00 GMT</pubDate>
+            <description>Claims by officials of cyberattacks against election infrastructure could not be independently verified. Russian officials provided little technical evidence about the attacks or who it claimed who was behind them. </description>
+            <category>Government</category>
+            <category>Cybercrime</category>
+            <category>News</category>
+            <enclosure url="http://cms.therecord.media/uploads/2022_08_russia_moscow_kremlin_572667a8c5.jpg" length="0" type="image/jpg" />
+        </item>
+        </channel>
+</rss>

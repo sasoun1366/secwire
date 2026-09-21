@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://purl.org/rss/1.0/modules/syndication/" version="2.0">
+
+<channel>
+	<title>SecurityWeek</title>
+	<ns0:link href="https://www.securityweek.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.securityweek.com/</link>
+	<description>Cybersecurity News, Insights &amp; Analysis</description>
+	<lastBuildDate>Mon, 21 Sep 2026 14:00:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<ns1:updatePeriod>
+	hourly	</ns1:updatePeriod>
+	<ns1:updateFrequency>
+	1	</ns1:updateFrequency>
+	<generator>https://wordpress.org/?v=7.0.5</generator>
+
+<image>
+	<url>https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg</url>
+	<title>SecurityWeek</title>
+	<link>https://www.securityweek.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal</title>
+		<link>https://www.securityweek.com/dragos-completes-netrise-and-runzero-acquisitions-following-accenture-deal/</link>
+		
+		<dc:creator>Eduard Kovacs</dc:creator>
+		<pubDate>Mon, 21 Sep 2026 14:00:13 +0000</pubDate>
+				<category>M&amp;A Tracker</category>
+		<category>Accenture</category>
+		<category>Acquisitions</category>
+		<category>Dragos</category>
+		<category>M&amp;A</category>
+		<category>NetRise</category>
+		<category>RunZero</category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=49460</guid>
+
+					<description>&lt;p&gt;The transaction is part of the $4.1 billion deal in which Accenture acquired a majority stake in Dragos in an OT cybersecurity push.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.securityweek.com/dragos-completes-netrise-and-runzero-acquisitions-following-accenture-deal/"&gt;Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal&lt;/a&gt; appeared first on &lt;a href="https://www.securityweek.com"&gt;SecurityWeek&lt;/a&gt;.&lt;/p&gt;
+</description>
+		
+		
+		
+			</item>
+		<item>
+		<title>RatHat Android Trojan Uses AI for Automation</title>
+		<link>https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/</link>
+		
+		<dc:creator>Ionut Arghire</dc:creator>
+		<pubDate>Mon, 21 Sep 2026 12:51:41 +0000</pubDate>
+				<category>Malware &amp; Threats</category>
+		<category>AI</category>
+		<category>Android malware</category>
+		<category>RedHat</category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=49458</guid>
+
+					<description>&lt;p&gt;The malware relies on AI for real-time device navigation and control, increasing adaptability and evasion.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/"&gt;RatHat Android Trojan Uses AI for Automation&lt;/a&gt; appeared first on &lt;a href="https://www.securityweek.com"&gt;SecurityWeek&lt;/a&gt;.&lt;/p&gt;
+</description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Rust Team Members and Popular Crate Owners Targeted via Video Calls</title>
+		<link>https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/</link>
+		
+		<dc:creator>Eduard Kovacs</dc:creator>
+		<pubDate>Mon, 21 Sep 2026 11:57:35 +0000</pubDate>
+				<category>Supply Chain Security</category>
+		<category>North Korea</category>
+		<category>Rust</category>
+		<category>supply chain attack</category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=49456</guid>
+
+					<description>&lt;p&gt;It’s unclear if the attacks are part of previous campaigns against Rust, but the techniques used by the attackers match those used by North Korea.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/"&gt;Rust Team Members and Popular Crate Owners Targeted via Video Calls&lt;/a&gt; appeared first on &lt;a href="https://www.securityweek.com"&gt;SecurityWeek&lt;/a&gt;.&lt;/p&gt;
+</description>
+		
+		
+		
+			</item>
+		<item>
+		<title>CrowdSec Confirms Source Code Stolen in Supply Chain Attack</title>
+		<link>https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/</link>
+		
+		<dc:creator>Ionut Arghire</dc:creator>
+		<pubDate>Mon, 21 Sep 2026 10:55:46 +0000</pubDate>
+				<category>Data Breaches</category>
+		<category>Supply Chain Security</category>
+		<category>CrowdSec</category>
+		<category>data breach</category>
+		<category>source code</category>
+		<category>supply chain attack</category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=49454</guid>
+
+					<description>&lt;p&gt;The cybersecurity firm believes the data breach was the result of the May 2026 TanStack supply chain attack.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/"&gt;CrowdSec Confirms Source Code Stolen in Supply Chain Attack&lt;/a&gt; appeared first on &lt;a href="https://www.securityweek.com"&gt;SecurityWeek&lt;/a&gt;.&lt;/p&gt;
+</description>
+		
+		
+		
+			</item>
+		</channel>
+</rss>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns2="http://search.yahoo.com/mrss/" version="2.0" xml:base="https://www.darkreading.com">
+    <channel>
+        <title>darkreading</title>
+        <link>https://www.darkreading.com</link>
+        <description>Public RSS feed</description>
+                <language>en</language>
+        <ns0:link href="https://www.darkreading.com/feeds/rss.xml" rel="self" type="application/rss+xml" />
+                 <item>
+            <title>Vectra AI Launches Ascent to Help Address New Era of AI-Driven Attacks</title>
+            <link>https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks</link>
+                        <description>The new program expands Vectra AI's partner strategy as increasingly complex security environments and the growing use of AI create demand for broader AI expertise, services, and security outcomes.</description>
+                                                        <pubDate>Fri, 18 Sep 2026 20:24:51 GMT</pubDate>
+                                                                <dc:creator />
+                                    <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks</guid>
+                             
+                <ns2:thumbnail url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&amp;quality=80&amp;disable=upscale" />
+                <ns2:content url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&amp;quality=80&amp;disable=upscale" medium="image">
+                    <ns2:title type="html">325351_DR23_Graphics_General_Large_Text_v1.png</ns2:title>
+                </ns2:content>
+                                    </item>        <item>
+            <title>Cisco Zero-Day Highlights API Endpoint Authentication Issues</title>
+            <link>https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues</link>
+                        <description>The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.</description>
+                                                        <pubDate>Fri, 18 Sep 2026 19:26:47 GMT</pubDate>
+                                                                <dc:creator>Rob Wright</dc:creator>
+                                    <guid isPermaLink="false">https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues</guid>
+                             
+                <ns2:thumbnail url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9b9202e55102d483/6aad857c8cb60c3268956114/api-saifulasmee_chede-Getty-2203607940.jpg?width=720&amp;quality=80&amp;disable=upscale" />
+                <ns2:content url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9b9202e55102d483/6aad857c8cb60c3268956114/api-saifulasmee_chede-Getty-2203607940.jpg?width=720&amp;quality=80&amp;disable=upscale" medium="image">
+                    <ns2:title type="html">api-saifulasmee_chede-Getty-2203607940.jpg</ns2:title>
+                </ns2:content>
+                                    </item>        <item>
+            <title>EY Survey Finds Autonomous AI Implementation Outpaces Oversight</title>
+            <link>https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight</link>
+                        <description>A new survey of senior AI execs shows that while organizations are rapidly deploying AI and autonomous systems, their process and controls are not keeping pace.</description>
+                                                        <pubDate>Fri, 18 Sep 2026 19:23:48 GMT</pubDate>
+                                                                <dc:creator />
+                                    <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight</guid>
+                             
+                <ns2:thumbnail url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&amp;quality=80&amp;disable=upscale" />
+                <ns2:content url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&amp;quality=80&amp;disable=upscale" medium="image">
+                    <ns2:title type="html">325351_DR23_Graphics_General_Large_Text_v1.png</ns2:title>
+                </ns2:content>
+                                    </item>        <item>
+            <title>MFA Won't Save You From OAuth Consent Abuse</title>
+            <link>https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse</link>
+                        <description>MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.</description>
+                                                        <pubDate>Fri, 18 Sep 2026 18:15:20 GMT</pubDate>
+                                                                <dc:creator>Vishnu Galata</dc:creator>
+                                    <guid isPermaLink="false">https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse</guid>
+                             
+                <ns2:thumbnail url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8631b42f8b5aec85/6aad80fd266d963c81df6ccc/approval-_acilo_-_getty-471084261.jpg?width=720&amp;quality=80&amp;disable=upscale" />
+                <ns2:content url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8631b42f8b5aec85/6aad80fd266d963c81df6ccc/approval-_acilo_-_getty-471084261.jpg?width=720&amp;quality=80&amp;disable=upscale" medium="image">
+                    <ns2:title type="html">approval-_acilo_-_getty-471084261.jpg</ns2:title>
+                </ns2:content>
+                                    </item>        </channel>
+</rss>

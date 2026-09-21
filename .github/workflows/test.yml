@@ -1,0 +1,30 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install
+        run: pip install -e ".[dev]"
+      - name: Run tests
+        # Nothing here touches the network: the bundle in secwire/fixtures is what the
+        # tests read, so a red build means the code is wrong, not that a feed is down.
+        run: pytest -q
+      - name: The tool runs offline, on this Python
+        run: |
+          python -m secwire version
+          python -m secwire sample --quiet > /dev/null
+          python -m secwire digest --offline --limit 3 > /dev/null
+          python -m secwire preview --out /tmp/preview.html
