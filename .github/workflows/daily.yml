@@ -48,7 +48,7 @@ jobs:
       - name: Pick the story of the day and post it
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
-            python -m secwire post --dry-run --channel "$SECWIRE_CHAT_ID"
+            python -m secwire post --dry-run
           else
             python -m secwire post
           fi

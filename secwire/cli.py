@@ -184,7 +184,7 @@ def _make_post(args, reporter: Reporter, now: datetime):
         if args.no_tip:
             reporter.step("nothing to post", "and --no-tip was given")
             return None, seen, translator, None
-        post = render.build_tip(translator=translator, when=now, channel=args.channel)
+        post = render.build_tip(translator=translator, when=now, channel=args.tag)
         reporter.step("tip of the day", "#%d" % post.tip)
         return post, seen, translator, None
 
@@ -197,7 +197,7 @@ def _make_post(args, reporter: Reporter, now: datetime):
             note += ", longer summary"
         reporter.step("reading the article", note)
     post = render.build(digest, translator=translator, when=now, photo=not args.no_photo,
-                        also=not args.no_also, channel=args.channel)
+                        also=not args.no_also, channel=args.tag)
     return post, seen, translator, digest
 
 
@@ -317,7 +317,7 @@ def cmd_tip(args) -> int:
             print("%3d. %s" % (index, line))
         return 0
     now = datetime.now(timezone.utc)
-    post = render.build_tip(index=args.index, when=now, channel=args.channel)
+    post = render.build_tip(index=args.index, when=now, channel=args.tag)
     if args.post:
         return _post_tip(args, post)
     print("tip #%s" % post.tip)
@@ -491,8 +491,10 @@ def build_parser() -> argparse.ArgumentParser:
     p = subs.add_parser("post", help="choose today's story and publish it")
     shared(p)
     p.add_argument("--dry-run", action="store_true", help="build it, print it, send nothing")
-    p.add_argument("--channel", default="", help="channel id or @name (default: environment)")
-    p.add_argument("--chat", default="", help="alias of --channel")
+    p.add_argument("--chat", "--channel", dest="chat", default="",
+                   help="channel to post to: @name or -100… (default: environment)")
+    p.add_argument("--tag", default=DEFAULT_CHANNEL,
+                   help="the mention printed at the bottom of every message")
     p.add_argument("--also", type=int, default=3, help="how many other headlines to list")
     p.add_argument("--no-also", action="store_true", help="skip the 'also today' block")
     p.add_argument("--no-photo", action="store_true", help="text only, no photograph")
@@ -533,8 +535,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--index", type=int, default=None, help="a specific tip")
     p.add_argument("--post", action="store_true", help="post it")
     p.add_argument("--send", action="store_true", help="with --post: really send")
-    p.add_argument("--channel", default="")
-    p.add_argument("--chat", default="")
+    p.add_argument("--chat", "--channel", dest="chat", default="")
+    p.add_argument("--tag", default=DEFAULT_CHANNEL)
     p.set_defaults(func=cmd_tip)
 
     p = subs.add_parser("doctor", help="check that the daily job has what it needs")
@@ -566,8 +568,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     if not getattr(args, "command", None):
         parser.print_help()
         return 2
-    if not getattr(args, "channel", ""):
-        args.channel = DEFAULT_CHANNEL
+    if not hasattr(args, "tag"):
+        args.tag = DEFAULT_CHANNEL
     try:
         return args.func(args)
     except SystemExit as exc:
