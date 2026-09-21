@@ -124,6 +124,14 @@ eight feeds ──▶ rank ──▶ the article's own page ──▶ Persian + 
 `secwire sources` lists them with their URLs. Adding one is a line in
 `secwire/sources.py`; nothing else knows the difference.
 
+**A source can refuse a runner's IP.** cisa.gov answers a GitHub runner with `403`
+often enough to matter, so that source carries a second address: the KEV catalog is
+mirrored on GitHub (`cisagov/kev-data`), which a runner can always reach, and the
+JSON rows read as news because the date a row was added is the date that
+vulnerability became exploited. A `403`, `429` or `5xx` also buys any source one more
+ask a few seconds later. If a source is down for the day, the log says so and the
+post still goes out — seven desks are enough for a morning.
+
 ## What a post contains
 
 | # | message | what is in it |
@@ -148,8 +156,9 @@ A daily channel lives or dies on its bad days, so each of them has an answer:
 * **the translation endpoints are down** → the Persian half carries the original
   headline and says the machine translation was unavailable; the English body is
   already complete
-* **one feed is broken** → the other seven are still read, and the failure is
-  reported in the run log; one dead source never costs the day's post
+* **one feed is broken** → its second address is tried, the other seven are still
+  read, and the failure is reported in the run log; one dead source never costs the
+  day's post
 * **Telegram refuses the photograph** → the caption goes as a message of its own
 * **the run is rate-limited (429)** → it waits and tries again, three times
 
@@ -192,6 +201,11 @@ $ pytest -q
 $ secwire sample            # the post, from the bundled pages, with nothing sent
 $ python3 tools/make_fixtures.py --dry-run    # how the bundle would be refreshed
 ```
+
+When a source shows up as a complaint in the daily log, **Actions → feed probe → Run
+workflow** asks that one feed from a runner with several header combinations and
+prints the status codes — evidence for the fix, rather than a guess about which
+header a CDN disliked this morning.
 
 The tests never touch the network: `secwire/fixtures/` holds a frozen copy of the
 wire (four items from each feed, the article behind the day's story, and the Persian

@@ -112,6 +112,53 @@ def test_fixture_opener_answers_only_what_it_has(tmp_path):
         FX.FixtureOpener(root=tmp_path)("https://example.com/nowhere")
 
 
+def test_the_kev_catalog_reads_as_news_when_the_feed_will_not_answer():
+    """The fallback for the desk that matters most: the catalog itself, on GitHub."""
+    from secwire.fixtures import KEV_FIXTURE
+
+    rows = SD.parse_payload(KEV_FIXTURE.read_bytes(), SD.BY_KEY["cisakev"])
+    assert len(rows) >= 3
+    first = rows[0]
+    assert first.title.startswith("CISA KEV:")
+    assert first.link.startswith("https://www.cve.org/CVERecord?id=CVE-")
+    assert first.summary.startswith("CVE ")
+    assert "Required action" in first.summary
+    assert first.published is not None, "dateAdded is the date it became news"
+    assert first.source.key == "cisakev"
+
+
+def test_a_refused_feed_falls_back_to_its_second_address(monkeypatch):
+    import urllib.error
+
+    monkeypatch.setattr(SD.time, "sleep", lambda seconds: None)
+    from secwire.fixtures import KEV_FIXTURE, FixtureResponse
+
+    asked = []
+
+    class RefusesTheFirst:
+        def __call__(self, request, timeout=25):
+            asked.append(request.full_url)
+            if "cisa.gov" in request.full_url:
+                raise urllib.error.HTTPError(request.full_url, 403, "Forbidden", {}, None)
+            return FixtureResponse(KEV_FIXTURE.read_bytes())
+
+    entries, errors = SD.collect([SD.SOURCES[0]], opener=RefusesTheFirst())
+    assert entries, "the fallback address answered"
+    assert all(entry.source.key == "cisakev" for entry in entries)
+    assert not errors, errors
+    assert any("cisa.gov" in url for url in asked)
+    assert any("kev-data" in url for url in asked)
+
+
+def test_the_json_and_the_xml_are_told_apart():
+    from secwire.fixtures import KEV_FIXTURE
+
+    assert SD.parse_payload(KEV_FIXTURE.read_bytes(), SD.BY_KEY["cisakev"])[0].title.startswith("CISA KEV:")
+    xml = (b"<rss><channel><item><title>t</title>"
+           b"<link>https://example.com/a</link></item></channel></rss>")
+    assert SD.parse_payload(xml)[0].title == "t"
+
+
 def test_the_description_lists_what_is_bundled():
     text = FX.describe()
     assert "offline fixtures" in text

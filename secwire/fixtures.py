@@ -14,10 +14,11 @@ import urllib.parse
 from typing import Dict, Optional
 
 from . import story as S
-from .sources import BY_KEY, Entry, SOURCES, parse_feed
+from .sources import SOURCES, parse_payload
 
 ROOT = pathlib.Path(__file__).parent / "fixtures"
 TRANSLATE_FIXTURE = ROOT / "translate.json"
+KEV_FIXTURE = ROOT / "cisakev-kev.json"
 ARTICLE_FIXTURE = ROOT / "article.html"
 TITLE_FA = "«پیش‌نمایش آفلاین»"
 
@@ -61,6 +62,8 @@ class FixtureOpener:
     def path_for(self, url: str) -> Optional[pathlib.Path]:
         if "translate" in url:
             return TRANSLATE_FIXTURE
+        if "kev-data" in url and KEV_FIXTURE.exists():
+            return KEV_FIXTURE
         for source in SOURCES:
             if url.startswith(source.url) or url.rstrip("/") == source.url.rstrip("/"):
                 candidate = self.root / ("%s.xml" % source.key)
@@ -100,7 +103,7 @@ def entries(root: Optional[pathlib.Path] = None):
         if not path.exists():
             continue
         try:
-            out.extend(parse_feed(path.read_bytes(), source))
+            out.extend(parse_payload(path.read_bytes(), source))
         except Exception as exc:                              # noqa: BLE001 — fixture, reported
             errors.append("%s: %s" % (source.key, exc))
     return out, errors
@@ -111,8 +114,11 @@ def describe() -> str:
     for source in SOURCES:
         path = ROOT / ("%s.xml" % source.key)
         if path.exists():
-            count = len(parse_feed(path.read_bytes(), source))
+            count = len(parse_payload(path.read_bytes(), source))
             rows.append("  %-9s %2d items  %s" % (source.key, count, source.name))
+        if KEV_FIXTURE.exists() and source.key == "cisakev":
+            rows.append("  %-9s %2d items  the KEV catalog itself (the fallback address)"
+                        % ("kev-json", len(parse_payload(KEV_FIXTURE.read_bytes(), source))))
     if TRANSLATE_FIXTURE.exists():
         rows.append("  translations: %d cached pairs"
                     % len(json.loads(TRANSLATE_FIXTURE.read_text(encoding="utf-8"))))

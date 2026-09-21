@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import gzip
 import io
+import json
 import re
 import time
 import urllib.error
@@ -32,6 +33,10 @@ class Source:
     weight: int = 10
     about: str = ""
     html: str = ""
+    #: Tried in order when the first URL will not answer. A data-centre IP is a common
+    #: reason for a refusal, so a source that matters is worth a second address on a
+    #: different host — see cisakev below.
+    fallbacks: Tuple[str, ...] = ()
 
 
 #: The desk. Weights are editorial: an advisory you can act on beats a vendor's
@@ -40,7 +45,13 @@ SOURCES: Tuple[Source, ...] = (
     Source("cisakev", "CISA — known exploited vulnerabilities",
            "https://www.cisa.gov/cybersecurity-advisories/all.xml", 13,
            "the vulnerabilities that are being exploited right now",
-           "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"),
+           "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+           # cisa.gov answers a GitHub runner with a 403 often enough to matter — the
+           # channel's best desk should not depend on one CDN having a good morning.
+           # The KEV catalog itself is mirrored on GitHub, which a runner can always
+           # reach: see tools/probe or the feed probe workflow for the evidence.
+           fallbacks=("https://raw.githubusercontent.com/cisagov/kev-data/main/"
+                      "known_exploited_vulnerabilities.json",)),
     Source("krebs", "Krebs on Security", "https://krebsonsecurity.com/feed/", 12,
            "investigative reporting, breaking the story is the norm",
            "https://krebsonsecurity.com/"),
@@ -187,6 +198,62 @@ def _as_datetime(raw: str) -> Optional[datetime]:
     return stamp.astimezone(timezone.utc)
 
 
+def parse_payload(data: bytes, source: Optional[Source] = None) -> List[Entry]:
+    """A feed is XML; the KEV catalog is JSON. The caller should not have to care."""
+    head = data.lstrip()[:1]
+    if head in (b"{", b"["):
+        return parse_kev(data, source)
+    return parse_feed(data, source)
+
+
+KEV_LINK = "https://www.cve.org/CVERecord?id=%s"
+
+
+def parse_kev(data: bytes, source: Optional[Source] = None) -> List[Entry]:
+    """The known-exploited catalog: one row per vulnerability, newest first.
+
+    The XML feed announces "CISA adds a vulnerability to the catalog"; this is the
+    catalog itself. A row reads as news because the date it was added is the date it
+    became exploited, and the ranking treats an old row as old news.
+    """
+    try:
+        document = json.loads(data.decode("utf-8", "replace"))
+    except ValueError as exc:
+        raise FeedError("not JSON: %s" % exc) from None
+    rows = document.get("vulnerabilities") if isinstance(document, dict) else document
+    if not isinstance(rows, list):
+        raise FeedError("JSON, but not a KEV catalog")
+    out: List[Entry] = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        cve = (row.get("cveID") or row.get("cve") or "").strip()
+        vendor = (row.get("vendorProject") or "").strip()
+        product = (row.get("product") or "").strip()
+        name = (row.get("vulnerabilityName") or "").strip()
+        title = "CISA KEV: %s — %s" % (" ".join(x for x in (vendor, product) if x), name)
+        pieces = []
+        if cve:
+            pieces.append("CVE %s." % cve)
+        if row.get("shortDescription"):
+            pieces.append(row["shortDescription"])
+        if row.get("requiredAction"):
+            pieces.append("Required action: %s" % row["requiredAction"])
+        if row.get("knownRansomwareCampaignUse", "").lower() == "known":
+            pieces.append("Known to be used in ransomware campaigns.")
+        out.append(
+            Entry(
+                title=T.tidy(title),
+                link=KEV_LINK % cve if cve else (source.html if source else ""),
+                summary=T.tidy(" ".join(pieces)),
+                published=_as_datetime(str(row.get("dateAdded") or "")),
+                source=source,
+                guid=cve or title,
+            )
+        )
+    return out
+
+
 def parse_feed(data: bytes, source: Optional[Source] = None) -> List[Entry]:
     """RSS 2.0, RSS 1.0/RDF and Atom all reduce to the same list of entries."""
     try:
@@ -242,10 +309,18 @@ def collect(
     entries: List[Entry] = []
     errors: List[str] = []
     for source in sources:
-        try:
-            rows = parse_feed(fetch(source.url, timeout=timeout, opener=opener), source)
-        except FeedError as exc:
-            errors.append("%s: %s" % (source.key, exc))
+        rows: List[Entry] = []
+        refused: List[str] = []
+        for url in (source.url,) + tuple(source.fallbacks):
+            try:
+                rows = parse_payload(fetch(url, timeout=timeout, opener=opener), source)
+            except FeedError as exc:
+                refused.append("%s (%s)" % (exc, "primary" if url == source.url else "fallback"))
+                continue
+            if rows:
+                break
+        else:
+            errors.append("%s: %s" % (source.key, "; ".join(refused) or "no items"))
             continue
         if not rows:
             errors.append("%s: parsed, but no items" % source.key)
