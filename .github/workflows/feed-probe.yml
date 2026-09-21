@@ -1,0 +1,44 @@
+name: feed probe
+
+# Feeds sometimes refuse a data-centre IP, or a bot-shaped User-Agent, or both — and
+# the answer changes without warning. This asks every source, from a runner, with the
+# three headers secwire might send, and prints what came back. Run it when a source
+# shows up as a complaint in the daily log.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ask every feed, three ways
+        run: |
+          python3 - <<'PY'
+          import urllib.request, urllib.error
+          from secwire.sources import SOURCES
+
+          agents = {
+              "secwire": "secwire/0.1 (+https://github.com/sasoun1366/secwire)",
+              "browser": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                          "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
+              "feedreader": "FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)",
+          }
+          print("%-9s %-34s %s" % ("source", "url", " | ".join(agents)))
+          for source in SOURCES:
+              row = []
+              for label, agent in agents.items():
+                  request = urllib.request.Request(source.url, headers={
+                      "User-Agent": agent,
+                      "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.5",
+                  })
+                  try:
+                      with urllib.request.urlopen(request, timeout=25) as response:
+                          body = response.read()
+                          row.append("%s=%d/%dk" % (label, response.status, len(body) // 1024))
+                  except urllib.error.HTTPError as exc:
+                      row.append("%s=%s" % (label, exc.code))
+                  except Exception as exc:
+                      row.append("%s=%s" % (label, type(exc).__name__))
+              print("%-9s %-34s %s" % (source.key, source.url[:34], " | ".join(row)))
+          PY
