@@ -116,3 +116,62 @@ def test_the_description_lists_what_is_bundled():
     text = FX.describe()
     assert "offline fixtures" in text
     assert "cisakev" in text
+
+
+def test_a_feed_that_says_not_now_gets_a_second_ask(monkeypatch):
+    """CISA answered 403 to a runner and 200 to the same request soon after."""
+    import urllib.error
+
+    from secwire import sources as SD
+
+    monkeypatch.setattr(SD.time, "sleep", lambda seconds: None)
+    calls = []
+
+    class OnceShy:
+        def __call__(self, request, timeout=25):
+            calls.append(request.full_url)
+            if len(calls) == 1:
+                raise urllib.error.HTTPError(request.full_url, 403, "Forbidden", {}, None)
+            return FX.FixtureResponse(b"<rss><channel><item><title>x</title>"
+                                      b"<link>https://example.com/a</link></item></channel></rss>")
+
+    body = SD.fetch("https://www.cisa.gov/cybersecurity-advisories/all.xml", opener=OnceShy())
+    assert b"<rss" in body
+    assert len(calls) == 2
+
+
+def test_a_feed_that_keeps_refusing_is_a_complaint_not_an_attack(monkeypatch):
+    import urllib.error
+
+    from secwire import sources as SD
+
+    monkeypatch.setattr(SD.time, "sleep", lambda seconds: None)
+    calls = []
+
+    class AlwaysNo:
+        def __call__(self, request, timeout=25):
+            calls.append(request.full_url)
+            raise urllib.error.HTTPError(request.full_url, 403, "Forbidden", {}, None)
+
+    with pytest.raises(SD.FeedError) as caught:
+        SD.fetch("https://www.cisa.gov/cybersecurity-advisories/all.xml", opener=AlwaysNo())
+    assert caught.value.status == 403
+    assert caught.value.worth_retrying
+    assert len(calls) == SD.FETCH_ATTEMPTS, "two asks, then it gives up quietly"
+
+
+def test_a_missing_page_is_not_retried():
+    import urllib.error
+
+    from secwire import sources as SD
+
+    calls = []
+
+    class Gone:
+        def __call__(self, request, timeout=25):
+            calls.append(request.full_url)
+            raise urllib.error.HTTPError(request.full_url, 404, "Not Found", {}, None)
+
+    with pytest.raises(SD.FeedError):
+        SD.fetch("https://example.com/gone.xml", opener=Gone())
+    assert len(calls) == 1, "a 404 will still be a 404 in two seconds"

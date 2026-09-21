@@ -11,6 +11,7 @@ from __future__ import annotations
 import gzip
 import io
 import re
+import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -84,12 +85,43 @@ class Entry:
         return m.group(1).replace("www.", "") if m else ""
 
 
+#: Answers that mean "not now" rather than "not ever". A data-centre IP is a common
+#: reason to see one of these once, and a second ask a couple of seconds later usually
+#: gets the feed. Seen in the wild: CISA answered 403 to a GitHub runner, and 200 to
+#: the very same request two minutes later.
+RETRY_STATUS = (403, 408, 425, 429, 500, 502, 503, 504)
+FETCH_ATTEMPTS = 2
+BACKOFF = 2.5
+
+
 class FeedError(RuntimeError):
     """A source could not be read. Never fatal — reported and skipped."""
 
+    def __init__(self, message: str, status: Optional[int] = None):
+        super().__init__(message)
+        self.status = status
 
-def fetch(url: str, timeout: int = 25, opener=None) -> bytes:
-    """GET a URL the way a careful script does: identified, bounded, decompressed."""
+    @property
+    def worth_retrying(self) -> bool:
+        return self.status in RETRY_STATUS
+
+
+def fetch(url: str, timeout: int = 25, opener=None, attempts: int = FETCH_ATTEMPTS) -> bytes:
+    """GET a URL, with one polite retry when the answer means "not now"."""
+    last: Optional[FeedError] = None
+    for attempt in range(1, max(1, attempts) + 1):
+        try:
+            return _fetch_once(url, timeout=timeout, opener=opener)
+        except FeedError as exc:
+            if not exc.worth_retrying or attempt == attempts:
+                raise
+            last = exc
+            time.sleep(BACKOFF * attempt)
+    raise last if last else FeedError("no attempt was made for %s" % url)
+
+
+def _fetch_once(url: str, timeout: int = 25, opener=None) -> bytes:
+    """One GET, the way a careful script does it: identified, bounded, decompressed."""
     request = urllib.request.Request(
         url,
         headers={
@@ -104,7 +136,7 @@ def fetch(url: str, timeout: int = 25, opener=None) -> bytes:
             body = response.read()
             encoding = (response.headers.get("Content-Encoding") or "").lower()
     except urllib.error.HTTPError as exc:
-        raise FeedError("HTTP %s from %s" % (exc.code, url)) from None
+        raise FeedError("HTTP %s from %s" % (exc.code, url), status=exc.code) from None
     except Exception as exc:                                  # noqa: BLE001 — any failure
         raise FeedError("%s: %s" % (type(exc).__name__, exc)) from None
     if "gzip" in encoding or body[:2] == b"\x1f\x8b":
