@@ -9,6 +9,6 @@ translation means the English text stands alone. The channel never goes quiet.
 Zero dependencies, Python 3.9+.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 USER_AGENT = "secwire/%s (+https://github.com/sasoun1366/secwire)" % __version__

@@ -26,7 +26,7 @@ nothing — the channel is never silent and never padded with press releases.
 
 ```console
 $ secwire sample
-secwire 0.1.0 — offline sample (nothing is sent)
+secwire 0.1.1 — offline sample (nothing is sent)
 ──────────────────────────────────────────────────────────────────────────────
 story   : CISA Adds One Known Exploited Vulnerability to Catalog
 desk    : CISA — known exploited vulnerabilities
@@ -85,6 +85,20 @@ not yours, and every run is logged where you can read it. Four steps:
 The job commits `state/` back after every post, so the memory of what has already
 been said survives the runner, and the translation cache means a headline is paid
 for once.
+
+### Twice in the morning, once in the channel
+
+GitHub's scheduler is not a clock: under load it can run a slot far too late, and it
+can drop one entirely (it dropped the first 06:30 tick, the day after this went
+live). A missed morning is worse than a second run, so the workflow asks twice —
+`30 6` and `0 8` UTC, ten o'clock and half past eleven in Tehran.
+
+Two ticks, one post: `secwire post` keeps a one-post-a-day guard in the state file
+rather than trusting the cron. Whoever gets there first claims the day; the other
+prints `today already has its post`, exits green, and touches nothing. A hand
+trigger is safe for the same reason. `--force` (or *Run workflow* with `force`) is
+the deliberate way past it, and the day is a **Tehran** day, so the backup tick is
+the same morning and 20:30 UTC is tomorrow.
 
 ## How it works
 
@@ -161,6 +175,9 @@ A daily channel lives or dies on its bad days, so each of them has an answer:
   day's post
 * **Telegram refuses the photograph** → the caption goes as a message of its own
 * **the run is rate-limited (429)** → it waits and tries again, three times
+* **the scheduled tick never comes** (a late or dropped GitHub slot) → the backup
+  tick an hour and a half later posts the same morning's story, and the day guard
+  makes sure the one that does arrive is the only one that speaks
 
 ## Commands
 
@@ -168,6 +185,7 @@ A daily channel lives or dies on its bad days, so each of them has an answer:
 | --- | --- |
 | `secwire post` | choose today's story and publish it — this is the scheduled command |
 | `secwire post --dry-run` | build it, print it, send nothing |
+| `secwire post --force` | post even if today already has its post |
 | `secwire digest --explain` | what is on the wire right now, ranked, with the reasons |
 | `secwire sample` | the whole post, offline, from the bundled pages |
 | `secwire preview --out docs/preview.html` | write the post as a page that looks like the channel |
@@ -186,7 +204,7 @@ goes out live.
 | --- | --- | --- |
 | `SECWIRE_TELEGRAM_TOKEN` | — | the bot token (`TELEGRAM_BOT_TOKEN` also works) |
 | `SECWIRE_CHAT_ID` | — | `@channel` or `-100…` (`TELEGRAM_CHAT_ID` also works) |
-| `SECWIRE_HOME` | `~/.secwire` | where the memory (`seen.json`) and the translation cache live |
+| `SECWIRE_HOME` | `~/.secwire` | where the memory (`seen.json` — stories and the days posted) and the translation cache live |
 | `SECWIRE_TRANSLATE` | `1` | set to `0` for an English-only post |
 | `SECWIRE_TRANSLATE_URL` | — | your own translation endpoint; any URL containing `{q}`, answering text, `{"translatedText": …}`, or the Google-shaped JSON |
 

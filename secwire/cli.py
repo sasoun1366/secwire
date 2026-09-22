@@ -205,6 +205,18 @@ def cmd_post(args) -> int:
     reporter = Reporter(args.quiet)
     reporter.banner("daily post")
     now = datetime.now(timezone.utc)
+
+    # One post a day, and the day belongs to whoever gets there first. The job has a
+    # backup tick for the mornings GitHub's scheduler runs late, and a hand-triggered
+    # run must be safe too, so the rule is kept where the memory is kept — in the
+    # state file the runner commits back — rather than in the cron expression.
+    if not args.dry_run and not args.force:
+        already = state.Seen.load(state.home())
+        if already.posted_on(now):
+            reporter.step("today already has its post",
+                          "%s · --force to override" % state.post_day(now))
+            return 0
+
     post, seen, translator, digest = _make_post(args, reporter, now)
     if post is None:
         return 3
@@ -231,9 +243,11 @@ def cmd_post(args) -> int:
         for entry in ([post.story] if post.story else []) + (digest.also if digest else []):
             if entry:
                 seen.remember(entry, kind="story" if entry is post.story else "also")
+        seen.mark_posted(now)
         seen.prune()
         path = seen.save()
-        reporter.step("remembered", "%d stories in %s" % (len(seen), path))
+        reporter.step("remembered", "%d stories · posted on %s · %s"
+                      % (len(seen), state.post_day(now), path))
 
     if translator is not None:
         translator.save()
@@ -428,9 +442,10 @@ def cmd_schedule(args) -> int:
     print("  3. make sure the bot is an administrator of the channel")
     print("  4. Actions → daily post → Run workflow     ← check it once by hand")
     print()
-    print("The job commits state/seen.json back after every post, so it never repeats")
-    print("a story. GitHub's scheduler can be a few minutes late at busy times; the")
-    print("post still goes out, in the same order, with the same content.")
+    print("The job commits state/seen.json back after every post, so it never repeats a")
+    print("story. GitHub's scheduler can run late — or skip a slot entirely — so the")
+    print("workflow asks twice and the tool keeps the once-a-day rule itself: whoever")
+    print("gets there first posts, the other finds the day taken and exits quietly.")
     print()
     print("On your own machine, if you would rather not use Actions:")
     print()
@@ -502,6 +517,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--no-tip", action="store_true", help="if nothing is new, post nothing")
     p.add_argument("--no-enrich", action="store_true", help="do not fetch the article page")
     p.add_argument("--include-old", action="store_true", help="ignore the 4-day freshness window")
+    p.add_argument("--force", action="store_true",
+                   help="post even if today already has its post (the once-a-day guard)")
     p.add_argument("--explain", action="store_true")
     p.set_defaults(func=cmd_post)
 
@@ -570,6 +587,8 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 2
     if not hasattr(args, "tag"):
         args.tag = DEFAULT_CHANNEL
+    if not hasattr(args, "force"):
+        args.force = False
     try:
         return args.func(args)
     except SystemExit as exc:

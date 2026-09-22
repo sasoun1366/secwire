@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "secwire"
-version = "0.1.0"
+version = "0.1.1"
 description = "One network-security story a day, posted to a Telegram channel - feeds in, bilingual post out, on a schedule."
 readme = "README.md"
 license = { text = "MIT" }

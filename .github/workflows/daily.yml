@@ -6,10 +6,21 @@ on:
     # runs in UTC and can be a few minutes late at busy times — which is fine: the post
     # goes out in the same order with the same content whenever the runner starts.
     - cron: "30 6 * * *"
+    # 11:30 Tehran — the backup tick. GitHub's scheduler can run far too late or drop a
+    # slot entirely (it dropped the very first 06:30 tick, on 2026-09-22), and a missed
+    # morning is worse than a second run. Whichever tick gets there first posts; the
+    # other finds the day already taken and exits quietly — `secwire post` keeps a
+    # one-post-a-day guard in the state file, not in the cron expression, so a hand
+    # trigger is safe too. See `state.posted_on` and tests/test_once.py.
+    - cron: "0 8 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
         description: "Build the post and print it without sending it"
+        type: boolean
+        default: false
+      force:
+        description: "Post even if today already has its post"
         type: boolean
         default: false
 
@@ -49,6 +60,8 @@ jobs:
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             python -m secwire post --dry-run
+          elif [ "${{ inputs.force }}" = "true" ]; then
+            python -m secwire post --force
           else
             python -m secwire post
           fi
