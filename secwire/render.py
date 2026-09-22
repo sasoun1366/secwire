@@ -164,7 +164,8 @@ def body_en(story: Entry, category: str, when: datetime,
         lines += ["", T.esc(lead)]
     lines += ["", "🧰 <b>What to do</b>", T.esc(advice_en)]
     desk = story.source.name if story.source else story.host
-    lines += ["", "🔗 %s — %s" % (T.link(story.link, "Read it at %s" % desk), T.esc(desk)),
+    # The anchor already carries the desk's name in English, so it is not repeated.
+    lines += ["", "🔗 %s" % T.link(story.link, "Read it at %s" % desk),
               "", footer(channel)]
     return T.truncate("\n".join(lines), MESSAGE_LIMIT, ellipsis="…\n\n" + footer(channel))
 
