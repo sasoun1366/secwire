@@ -1,0 +1,37 @@
+{
+ "version": 1,
+ "entries": [
+  {
+   "id": "34c59567cc266380",
+   "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+   "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-09-22T06:50:48+00:00"
+  },
+  {
+   "id": "c822fef53c561228",
+   "title": "CISA KEV: Zyxel GS1900 Series Switches — Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-7273",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-09-22T06:50:48+00:00"
+  },
+  {
+   "id": "999307a747558db8",
+   "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
+   "source": "darkread",
+   "kind": "also",
+   "at": "2026-09-22T06:50:48+00:00"
+  },
+  {
+   "id": "3a11fc25363c5c36",
+   "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-09-22T06:50:48+00:00"
+  }
+ ]
+}
