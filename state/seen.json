@@ -32,6 +32,41 @@
    "source": "bleeping",
    "kind": "also",
    "at": "2026-09-22T06:50:48+00:00"
+  },
+  {
+   "id": "2abdfca3fba2ad80",
+   "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "story",
+   "at": "2026-09-23T11:57:18+00:00"
+  },
+  {
+   "id": "06ff9d82d2cf9335",
+   "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+   "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-09-23T11:57:18+00:00"
+  },
+  {
+   "id": "98c1cbf5ac5ec472",
+   "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+   "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-09-23T11:57:18+00:00"
+  },
+  {
+   "id": "429f19f49f095125",
+   "title": "CISA KEV: Check Point Multiple Products — Check Point Multiple Products Improper Certificate Validation Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-85102",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-09-23T11:57:18+00:00"
   }
+ ],
+ "posts": [
+  "2026-09-23"
  ]
 }
