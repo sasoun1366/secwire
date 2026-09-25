@@ -96,10 +96,43 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-09-24T12:05:08+00:00"
+  },
+  {
+   "id": "1278e8f4cf553f0b",
+   "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+   "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-09-25T12:04:54+00:00"
+  },
+  {
+   "id": "96e2a1cd7abb7b86",
+   "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+   "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-09-25T12:04:54+00:00"
+  },
+  {
+   "id": "0280353ce69504cf",
+   "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-09-25T12:04:54+00:00"
+  },
+  {
+   "id": "49569789e8cd72d1",
+   "title": "CISA KEV: Arista VeloCloud Orchestrator — Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-93952",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-09-25T12:04:54+00:00"
   }
  ],
  "posts": [
   "2026-09-23",
-  "2026-09-24"
+  "2026-09-24",
+  "2026-09-25"
  ]
 }
