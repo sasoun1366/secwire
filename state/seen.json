@@ -128,11 +128,44 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-09-25T12:04:54+00:00"
+  },
+  {
+   "id": "6a6d8192e3eeafd9",
+   "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+   "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-09-26T11:41:06+00:00"
+  },
+  {
+   "id": "15f4b6e5d2d90872",
+   "title": "CISA KEV: MikroTik RouterOS — Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-67279",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-09-26T11:41:06+00:00"
+  },
+  {
+   "id": "8b8ae8fe5d85b289",
+   "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-09-26T11:41:06+00:00"
+  },
+  {
+   "id": "c40b8a6c5e51b7f8",
+   "title": "CISA KEV: Microsoft SharePoint — Microsoft SharePoint Code Injection Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-65660",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-09-26T11:41:06+00:00"
   }
  ],
  "posts": [
   "2026-09-23",
   "2026-09-24",
-  "2026-09-25"
+  "2026-09-25",
+  "2026-09-26"
  ]
 }
