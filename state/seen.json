@@ -160,12 +160,45 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-09-26T11:41:06+00:00"
+  },
+  {
+   "id": "a40b40066cc768f8",
+   "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+   "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-09-27T12:18:40+00:00"
+  },
+  {
+   "id": "b6bd22afa24f9b57",
+   "title": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
+   "link": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-09-27T12:18:40+00:00"
+  },
+  {
+   "id": "bb61ba1bb862a5c6",
+   "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+   "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-09-27T12:18:40+00:00"
+  },
+  {
+   "id": "a10a315dc60441d6",
+   "title": "CISA KEV: WordPress Core — WordPress Core Remote File Inclusion Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-87902",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-09-27T12:18:40+00:00"
   }
  ],
  "posts": [
   "2026-09-23",
   "2026-09-24",
   "2026-09-25",
-  "2026-09-26"
+  "2026-09-26",
+  "2026-09-27"
  ]
 }
