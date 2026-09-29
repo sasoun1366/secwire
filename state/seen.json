@@ -224,6 +224,38 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-09-28T14:19:15+00:00"
+  },
+  {
+   "id": "aef294584b0e31f5",
+   "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "story",
+   "at": "2026-09-29T13:12:58+00:00"
+  },
+  {
+   "id": "a497319f060a1ad8",
+   "title": "CISA KEV: Citrix NetScaler — Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-88772",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-09-29T13:12:58+00:00"
+  },
+  {
+   "id": "de67cb0f3372a74f",
+   "title": "US, UK warn of exploited Citrix NetScaler zero-day bugs",
+   "link": "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
+   "source": "record",
+   "kind": "also",
+   "at": "2026-09-29T13:12:58+00:00"
+  },
+  {
+   "id": "6d2fcf43e32d120c",
+   "title": "Apple Patches Zero-Day Linked to ‘Extremely Sophisticated Attack’",
+   "link": "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-09-29T13:12:58+00:00"
   }
  ],
  "posts": [
@@ -232,6 +264,7 @@
   "2026-09-25",
   "2026-09-26",
   "2026-09-27",
-  "2026-09-28"
+  "2026-09-28",
+  "2026-09-29"
  ]
 }
