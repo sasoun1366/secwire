@@ -256,6 +256,38 @@
    "source": "secweek",
    "kind": "also",
    "at": "2026-09-29T13:12:58+00:00"
+  },
+  {
+   "id": "aa18d78eb3f18284",
+   "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+   "source": "bleeping",
+   "kind": "story",
+   "at": "2026-09-30T12:53:28+00:00"
+  },
+  {
+   "id": "d928ca2724e6abe5",
+   "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+   "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-09-30T12:53:28+00:00"
+  },
+  {
+   "id": "31cdedd73f657e0d",
+   "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
+   "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
+   "source": "darkread",
+   "kind": "also",
+   "at": "2026-09-30T12:53:28+00:00"
+  },
+  {
+   "id": "7ccb1670df326d8e",
+   "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+   "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-09-30T12:53:28+00:00"
   }
  ],
  "posts": [
@@ -265,6 +297,7 @@
   "2026-09-26",
   "2026-09-27",
   "2026-09-28",
-  "2026-09-29"
+  "2026-09-29",
+  "2026-09-30"
  ]
 }
