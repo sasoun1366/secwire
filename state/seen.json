@@ -288,6 +288,38 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-09-30T12:53:28+00:00"
+  },
+  {
+   "id": "bc43c2f4986fc8d9",
+   "title": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability",
+   "link": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
+   "source": "secweek",
+   "kind": "story",
+   "at": "2026-10-01T13:44:49+00:00"
+  },
+  {
+   "id": "668cd64f89b8bdf3",
+   "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+   "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-01T13:44:49+00:00"
+  },
+  {
+   "id": "c9aca720d6cdef3c",
+   "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+   "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-01T13:44:49+00:00"
+  },
+  {
+   "id": "6498a57efa293b89",
+   "title": "CISA KEV: Cisco Catalyst SD-WAN Manager — Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-76504",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-01T13:44:49+00:00"
   }
  ],
  "posts": [
@@ -298,6 +330,7 @@
   "2026-09-27",
   "2026-09-28",
   "2026-09-29",
-  "2026-09-30"
+  "2026-09-30",
+  "2026-10-01"
  ]
 }
