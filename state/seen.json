@@ -320,6 +320,38 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-01T13:44:49+00:00"
+  },
+  {
+   "id": "cb50d799370a96b7",
+   "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+   "source": "bleeping",
+   "kind": "story",
+   "at": "2026-10-02T12:59:42+00:00"
+  },
+  {
+   "id": "e2be5a8cdfff90ff",
+   "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+   "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-02T12:59:42+00:00"
+  },
+  {
+   "id": "b1078efb54a6eb6f",
+   "title": "Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action",
+   "link": "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-02T12:59:42+00:00"
+  },
+  {
+   "id": "9b44c493d1e44edd",
+   "title": "CISA KEV: Fortinet FortiMail — Fortinet FortiMail Path Traversal Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-104286",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-02T12:59:42+00:00"
   }
  ],
  "posts": [
@@ -331,6 +363,7 @@
   "2026-09-28",
   "2026-09-29",
   "2026-09-30",
-  "2026-10-01"
+  "2026-10-01",
+  "2026-10-02"
  ]
 }
