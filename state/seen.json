@@ -352,6 +352,38 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-02T12:59:42+00:00"
+  },
+  {
+   "id": "db7f7c47d2b89c52",
+   "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+   "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-03T11:53:41+00:00"
+  },
+  {
+   "id": "bf94b862b88382ea",
+   "title": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
+   "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
+   "source": "darkread",
+   "kind": "also",
+   "at": "2026-10-03T11:53:41+00:00"
+  },
+  {
+   "id": "ee50a3af8e68a0e8",
+   "title": "CISA KEV: Zammad GmbH Zammad — Zammad GmbH Zammad Improper Privilege Management Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-102490",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-03T11:53:41+00:00"
+  },
+  {
+   "id": "6f4e74eae7a5e561",
+   "title": "CISA KEV: Zammad GmbH Zammad — Zammad GmbH Zammad Session Fixation Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-102489",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-03T11:53:41+00:00"
   }
  ],
  "posts": [
@@ -364,6 +396,7 @@
   "2026-09-29",
   "2026-09-30",
   "2026-10-01",
-  "2026-10-02"
+  "2026-10-02",
+  "2026-10-03"
  ]
 }
