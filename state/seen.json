@@ -384,6 +384,38 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-03T11:53:41+00:00"
+  },
+  {
+   "id": "77526c75d53d4659",
+   "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+   "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-04T12:44:55+00:00"
+  },
+  {
+   "id": "92ed1c9c74c0a425",
+   "title": "Frontline Education breach exposes school district employee data",
+   "link": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-04T12:44:55+00:00"
+  },
+  {
+   "id": "80508fcaa7c469c2",
+   "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-04T12:44:55+00:00"
+  },
+  {
+   "id": "cdad6b5a084ca828",
+   "title": "'Warlock' ransomware used in attacks on critical infrastructure in Portuguese, Spanish-speaking countries",
+   "link": "https://therecord.media/warlock-ransomware-used-in-critical-infrastructure-attacks",
+   "source": "record",
+   "kind": "also",
+   "at": "2026-10-04T12:44:55+00:00"
   }
  ],
  "posts": [
@@ -397,6 +429,7 @@
   "2026-09-30",
   "2026-10-01",
   "2026-10-02",
-  "2026-10-03"
+  "2026-10-03",
+  "2026-10-04"
  ]
 }
