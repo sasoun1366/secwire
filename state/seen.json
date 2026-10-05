@@ -416,6 +416,38 @@
    "source": "record",
    "kind": "also",
    "at": "2026-10-04T12:44:55+00:00"
+  },
+  {
+   "id": "58227cbb8a27da19",
+   "title": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
+   "link": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
+   "source": "secweek",
+   "kind": "story",
+   "at": "2026-10-05T15:07:14+00:00"
+  },
+  {
+   "id": "0a01156a9b1f4f0d",
+   "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+   "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-05T15:07:14+00:00"
+  },
+  {
+   "id": "45861f91325a3872",
+   "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-05T15:07:14+00:00"
+  },
+  {
+   "id": "5b6f73cea52d2599",
+   "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+   "link": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-05T15:07:14+00:00"
   }
  ],
  "posts": [
@@ -430,6 +462,7 @@
   "2026-10-01",
   "2026-10-02",
   "2026-10-03",
-  "2026-10-04"
+  "2026-10-04",
+  "2026-10-05"
  ]
 }
