@@ -448,6 +448,38 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-10-05T15:07:14+00:00"
+  },
+  {
+   "id": "48a951917d99093a",
+   "title": "Microsoft Exchange Flaw Lets Authenticated Attackers",
+   "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-06T13:30:43+00:00"
+  },
+  {
+   "id": "d33aae9c6e8c9254",
+   "title": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
+   "link": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-06T13:30:43+00:00"
+  },
+  {
+   "id": "63221891d554bc06",
+   "title": "Exploitation Hits Rejetto HFS Vulnerability Discovered by AI",
+   "link": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-06T13:30:43+00:00"
+  },
+  {
+   "id": "02684efd92aca14e",
+   "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
+   "link": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
+   "source": "darkread",
+   "kind": "also",
+   "at": "2026-10-06T13:30:43+00:00"
   }
  ],
  "posts": [
@@ -463,6 +495,7 @@
   "2026-10-02",
   "2026-10-03",
   "2026-10-04",
-  "2026-10-05"
+  "2026-10-05",
+  "2026-10-06"
  ]
 }
