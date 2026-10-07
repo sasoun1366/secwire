@@ -480,6 +480,38 @@
    "source": "darkread",
    "kind": "also",
    "at": "2026-10-06T13:30:43+00:00"
+  },
+  {
+   "id": "4d274a6471f0a92c",
+   "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+   "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-07T13:43:26+00:00"
+  },
+  {
+   "id": "f917920ce3e22647",
+   "title": "Advantest Discloses Data Breach Months After Ransomware Attack",
+   "link": "https://www.securityweek.com/advantest-discloses-data-breach-months-after-ransomware-attack/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-07T13:43:26+00:00"
+  },
+  {
+   "id": "4e661a7d2612da92",
+   "title": "Hackers exploit critical Atlassian flaw after public PoC release",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-07T13:43:26+00:00"
+  },
+  {
+   "id": "ee7b5381a8a457d2",
+   "title": "ASOS confirms data breach after “HACKED” in-app notifications",
+   "link": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-07T13:43:26+00:00"
   }
  ],
  "posts": [
@@ -496,6 +528,7 @@
   "2026-10-03",
   "2026-10-04",
   "2026-10-05",
-  "2026-10-06"
+  "2026-10-06",
+  "2026-10-07"
  ]
 }
