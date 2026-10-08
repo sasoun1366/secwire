@@ -512,6 +512,38 @@
    "source": "bleeping",
    "kind": "also",
    "at": "2026-10-07T13:43:26+00:00"
+  },
+  {
+   "id": "4e5f96420791d773",
+   "title": "ASOS links data breach to social engineering attack, credential theft",
+   "link": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
+   "source": "bleeping",
+   "kind": "story",
+   "at": "2026-10-08T13:51:41+00:00"
+  },
+  {
+   "id": "46db7504e0a90c31",
+   "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+   "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-08T13:51:41+00:00"
+  },
+  {
+   "id": "d604263512d86c0a",
+   "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+   "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-08T13:51:41+00:00"
+  },
+  {
+   "id": "f20d774a23f2408d",
+   "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+   "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-08T13:51:41+00:00"
   }
  ],
  "posts": [
@@ -529,6 +561,7 @@
   "2026-10-04",
   "2026-10-05",
   "2026-10-06",
-  "2026-10-07"
+  "2026-10-07",
+  "2026-10-08"
  ]
 }
