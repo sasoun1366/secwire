@@ -544,6 +544,38 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-10-08T13:51:41+00:00"
+  },
+  {
+   "id": "d4da7d510c5f786c",
+   "title": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
+   "link": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+   "source": "secweek",
+   "kind": "story",
+   "at": "2026-10-09T13:36:39+00:00"
+  },
+  {
+   "id": "d28c475d0bc5beb2",
+   "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-09T13:36:39+00:00"
+  },
+  {
+   "id": "23af17c835eb421f",
+   "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+   "link": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-09T13:36:39+00:00"
+  },
+  {
+   "id": "41099bdecc47c5f5",
+   "title": "CISA KEV: Apache Struts — Apache Struts Command Injection Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2016-3081",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-09T13:36:39+00:00"
   }
  ],
  "posts": [
@@ -562,6 +594,7 @@
   "2026-10-05",
   "2026-10-06",
   "2026-10-07",
-  "2026-10-08"
+  "2026-10-08",
+  "2026-10-09"
  ]
 }
