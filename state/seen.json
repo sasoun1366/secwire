@@ -576,6 +576,38 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-09T13:36:39+00:00"
+  },
+  {
+   "id": "530cc2dcfd5512db",
+   "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+   "link": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-10T12:53:10+00:00"
+  },
+  {
+   "id": "79d636ff0f17e620",
+   "title": "CISA KEV: ISC BIND — ISC BIND Data Processing Errors Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2015-5477",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-10T12:53:10+00:00"
+  },
+  {
+   "id": "6cb1fa8c44c834c7",
+   "title": "CISA KEV: ONLYOFFICE Docs — ONLYOFFICE Docs Server Path Traversal Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2021-3199",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-10T12:53:10+00:00"
+  },
+  {
+   "id": "bf65b678c8380cb7",
+   "title": "CISA KEV: ProFTPD ProFTPD — ProFTPD Improper Access Control Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2015-3306",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-10T12:53:10+00:00"
   }
  ],
  "posts": [
@@ -595,6 +627,7 @@
   "2026-10-06",
   "2026-10-07",
   "2026-10-08",
-  "2026-10-09"
+  "2026-10-09",
+  "2026-10-10"
  ]
 }
