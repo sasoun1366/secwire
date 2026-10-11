@@ -608,6 +608,38 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-10T12:53:10+00:00"
+  },
+  {
+   "id": "a735b9724a314b23",
+   "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+   "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-11T13:17:08+00:00"
+  },
+  {
+   "id": "d842f8581fcf14ad",
+   "title": "CISA KEV: Strapi Strapi — Strapi Cleartext Storage of Sensitive Information Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2023-22894",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-11T13:17:08+00:00"
+  },
+  {
+   "id": "2870dadf2691af3f",
+   "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+   "link": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-11T13:17:08+00:00"
+  },
+  {
+   "id": "c284227b64f89481",
+   "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
+   "link": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-11T13:17:08+00:00"
   }
  ],
  "posts": [
@@ -628,6 +660,7 @@
   "2026-10-07",
   "2026-10-08",
   "2026-10-09",
-  "2026-10-10"
+  "2026-10-10",
+  "2026-10-11"
  ]
 }
