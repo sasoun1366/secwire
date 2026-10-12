@@ -640,6 +640,38 @@
    "source": "secweek",
    "kind": "also",
    "at": "2026-10-11T13:17:08+00:00"
+  },
+  {
+   "id": "f8b5702c3552317a",
+   "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+   "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-12T15:53:40+00:00"
+  },
+  {
+   "id": "5b04d227fb255c41",
+   "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+   "link": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-12T15:53:40+00:00"
+  },
+  {
+   "id": "bbbfb0c18f98ae65",
+   "title": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
+   "link": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-12T15:53:40+00:00"
+  },
+  {
+   "id": "d97a50345034a6d0",
+   "title": "iRhythm Data Breach Impacts at Least 360,000 People",
+   "link": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-12T15:53:40+00:00"
   }
  ],
  "posts": [
@@ -661,6 +693,7 @@
   "2026-10-08",
   "2026-10-09",
   "2026-10-10",
-  "2026-10-11"
+  "2026-10-11",
+  "2026-10-12"
  ]
 }
