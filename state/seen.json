@@ -672,6 +672,38 @@
    "source": "secweek",
    "kind": "also",
    "at": "2026-10-12T15:53:40+00:00"
+  },
+  {
+   "id": "d7c8f2a845956812",
+   "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+   "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-13T14:28:51+00:00"
+  },
+  {
+   "id": "75c0cbaec1ca7714",
+   "title": "The MFA Gaps Attackers are Still Exploiting",
+   "link": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-13T14:28:51+00:00"
+  },
+  {
+   "id": "3d1ae45b5fe00370",
+   "title": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack",
+   "source": "darkread",
+   "kind": "also",
+   "at": "2026-10-13T14:28:51+00:00"
+  },
+  {
+   "id": "58211c2d2071b896",
+   "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
+   "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-13T14:28:51+00:00"
   }
  ],
  "posts": [
@@ -694,6 +726,7 @@
   "2026-10-09",
   "2026-10-10",
   "2026-10-11",
-  "2026-10-12"
+  "2026-10-12",
+  "2026-10-13"
  ]
 }
