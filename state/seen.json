@@ -704,6 +704,38 @@
    "source": "bleeping",
    "kind": "also",
    "at": "2026-10-13T14:28:51+00:00"
+  },
+  {
+   "id": "f72aff283a5b0cfa",
+   "title": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
+   "link": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
+   "source": "secweek",
+   "kind": "story",
+   "at": "2026-10-14T12:14:22+00:00"
+  },
+  {
+   "id": "306538995694c425",
+   "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-14T12:14:22+00:00"
+  },
+  {
+   "id": "5caa6b4a3bd21742",
+   "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-14T12:14:22+00:00"
+  },
+  {
+   "id": "066b0c6b10fea010",
+   "title": "CISA KEV: Ivanti Connect Secure — Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-104935",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-14T12:14:22+00:00"
   }
  ],
  "posts": [
@@ -727,6 +759,7 @@
   "2026-10-10",
   "2026-10-11",
   "2026-10-12",
-  "2026-10-13"
+  "2026-10-13",
+  "2026-10-14"
  ]
 }
