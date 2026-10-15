@@ -736,6 +736,38 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-14T12:14:22+00:00"
+  },
+  {
+   "id": "82d35d281de805fe",
+   "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+   "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-15T11:55:24+00:00"
+  },
+  {
+   "id": "63f156514435ddb1",
+   "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-15T11:55:24+00:00"
+  },
+  {
+   "id": "1bf5de0535d6fafd",
+   "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-15T11:55:24+00:00"
+  },
+  {
+   "id": "0201095cdfc9f9cc",
+   "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+   "link": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+   "source": "darkread",
+   "kind": "also",
+   "at": "2026-10-15T11:55:24+00:00"
   }
  ],
  "posts": [
@@ -760,6 +792,7 @@
   "2026-10-11",
   "2026-10-12",
   "2026-10-13",
-  "2026-10-14"
+  "2026-10-14",
+  "2026-10-15"
  ]
 }
