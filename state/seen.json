@@ -768,6 +768,38 @@
    "source": "darkread",
    "kind": "also",
    "at": "2026-10-15T11:55:24+00:00"
+  },
+  {
+   "id": "86ac28ba4711b617",
+   "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+   "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-16T11:45:55+00:00"
+  },
+  {
+   "id": "628cd7ab95e8828e",
+   "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
+   "link": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-16T11:45:55+00:00"
+  },
+  {
+   "id": "42d85f2eb71469bd",
+   "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-16T11:45:55+00:00"
+  },
+  {
+   "id": "f6084d6e935df962",
+   "title": "CISA KEV: Cisco Secure Email Gateway — Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-76519",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-16T11:45:55+00:00"
   }
  ],
  "posts": [
@@ -793,6 +825,7 @@
   "2026-10-12",
   "2026-10-13",
   "2026-10-14",
-  "2026-10-15"
+  "2026-10-15",
+  "2026-10-16"
  ]
 }
