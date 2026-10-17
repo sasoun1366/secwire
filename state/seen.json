@@ -800,6 +800,38 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-16T11:45:55+00:00"
+  },
+  {
+   "id": "4f3e05cd75fb8c43",
+   "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+   "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-17T11:03:14+00:00"
+  },
+  {
+   "id": "96c59736c1c013c9",
+   "title": "CISA KEV: Fortinet Multiple Products — Fortinet Multiple Products Path Traversal Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2025-61624",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-17T11:03:14+00:00"
+  },
+  {
+   "id": "62745a88e16124d3",
+   "title": "CISA KEV: BeyondTrust Remote Support — BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-102764",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-17T11:03:14+00:00"
+  },
+  {
+   "id": "3acb3c44b43eeb86",
+   "title": "BeyondTrust patches zero-day exploited in attacks since August",
+   "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-17T11:03:14+00:00"
   }
  ],
  "posts": [
@@ -826,6 +858,7 @@
   "2026-10-13",
   "2026-10-14",
   "2026-10-15",
-  "2026-10-16"
+  "2026-10-16",
+  "2026-10-17"
  ]
 }
