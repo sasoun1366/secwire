@@ -832,6 +832,38 @@
    "source": "bleeping",
    "kind": "also",
    "at": "2026-10-17T11:03:14+00:00"
+  },
+  {
+   "id": "9dd6c6cfa277f5af",
+   "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+   "link": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-18T11:33:52+00:00"
+  },
+  {
+   "id": "259eababddffcfb8",
+   "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+   "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+   "source": "darkread",
+   "kind": "also",
+   "at": "2026-10-18T11:33:52+00:00"
+  },
+  {
+   "id": "280f52bd31a8bce3",
+   "title": "Baltimore suburb confirms August data breach after ransomware claims",
+   "link": "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach",
+   "source": "record",
+   "kind": "also",
+   "at": "2026-10-18T11:33:52+00:00"
+  },
+  {
+   "id": "9c1749c76611cfea",
+   "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-18T11:33:52+00:00"
   }
  ],
  "posts": [
@@ -859,6 +891,7 @@
   "2026-10-14",
   "2026-10-15",
   "2026-10-16",
-  "2026-10-17"
+  "2026-10-17",
+  "2026-10-18"
  ]
 }
