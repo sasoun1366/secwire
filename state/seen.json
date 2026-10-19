@@ -864,6 +864,38 @@
    "source": "bleeping",
    "kind": "also",
    "at": "2026-10-18T11:33:52+00:00"
+  },
+  {
+   "id": "38d9aa30aa7a1082",
+   "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+   "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-19T13:47:52+00:00"
+  },
+  {
+   "id": "45e40fbc8870d2b3",
+   "title": "Hackers steal customer data from major Russian hosting provider FirstVDS",
+   "link": "https://therecord.media/russia-cyberattack-firstvds-cloud",
+   "source": "record",
+   "kind": "also",
+   "at": "2026-10-19T13:47:52+00:00"
+  },
+  {
+   "id": "523e54fc66b26b3f",
+   "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
+   "link": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-19T13:47:52+00:00"
+  },
+  {
+   "id": "7f7602f2fac5dec7",
+   "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-19T13:47:52+00:00"
   }
  ],
  "posts": [
@@ -892,6 +924,7 @@
   "2026-10-15",
   "2026-10-16",
   "2026-10-17",
-  "2026-10-18"
+  "2026-10-18",
+  "2026-10-19"
  ]
 }
