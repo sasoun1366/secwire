@@ -896,6 +896,38 @@
    "source": "bleeping",
    "kind": "also",
    "at": "2026-10-19T13:47:52+00:00"
+  },
+  {
+   "id": "386e0a37032525e7",
+   "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+   "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-20T11:56:58+00:00"
+  },
+  {
+   "id": "f334ed15d7e691ae",
+   "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
+   "link": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-20T11:56:58+00:00"
+  },
+  {
+   "id": "7aace1fdcc93d9a5",
+   "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-20T11:56:58+00:00"
+  },
+  {
+   "id": "c6fc940f470f30d4",
+   "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-20T11:56:58+00:00"
   }
  ],
  "posts": [
@@ -925,6 +957,7 @@
   "2026-10-16",
   "2026-10-17",
   "2026-10-18",
-  "2026-10-19"
+  "2026-10-19",
+  "2026-10-20"
  ]
 }
