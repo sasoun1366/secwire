@@ -960,6 +960,38 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-21T12:11:28+00:00"
+  },
+  {
+   "id": "9c757d76e1fde048",
+   "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+   "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-22T12:14:52+00:00"
+  },
+  {
+   "id": "244f8474d95cdeff",
+   "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
+   "link": "https://isc.sans.edu/diary/rss/33440",
+   "source": "sansisc",
+   "kind": "also",
+   "at": "2026-10-22T12:14:52+00:00"
+  },
+  {
+   "id": "39ba27c564ed6f77",
+   "title": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
+   "link": "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-22T12:14:52+00:00"
+  },
+  {
+   "id": "cfb1741e5f096920",
+   "title": "CISA KEV: Plex Media Server — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-96655",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-22T12:14:52+00:00"
   }
  ],
  "posts": [
@@ -991,6 +1023,7 @@
   "2026-10-18",
   "2026-10-19",
   "2026-10-20",
-  "2026-10-21"
+  "2026-10-21",
+  "2026-10-22"
  ]
 }
