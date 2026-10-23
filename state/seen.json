@@ -992,10 +992,41 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-22T12:14:52+00:00"
+  },
+  {
+   "id": "7920d2b5ba9047b9",
+   "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "story",
+   "at": "2026-10-23T11:55:59+00:00"
+  },
+  {
+   "id": "7bf27b4ab8ebadb0",
+   "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+   "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-23T11:55:59+00:00"
+  },
+  {
+   "id": "eeae3503a90d0662",
+   "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+   "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-23T11:55:59+00:00"
+  },
+  {
+   "id": "20aeec4b6cfe52ac",
+   "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+   "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-23T11:55:59+00:00"
   }
  ],
  "posts": [
-  "2026-09-23",
   "2026-09-24",
   "2026-09-25",
   "2026-09-26",
@@ -1024,6 +1055,7 @@
   "2026-10-19",
   "2026-10-20",
   "2026-10-21",
-  "2026-10-22"
+  "2026-10-22",
+  "2026-10-23"
  ]
 }
