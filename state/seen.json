@@ -1024,10 +1024,41 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-10-23T11:55:59+00:00"
+  },
+  {
+   "id": "861cb470c1bf6359",
+   "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+   "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-24T11:25:39+00:00"
+  },
+  {
+   "id": "783b45086797ae84",
+   "title": "CISA KEV: Arista VeloCloud Orchestrator — Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-114625",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-24T11:25:39+00:00"
+  },
+  {
+   "id": "2125ee5e88ac1062",
+   "title": "CISA KEV: Collabora Collabora Online – Built-in CODE Server — Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-110447",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-24T11:25:39+00:00"
+  },
+  {
+   "id": "74e74f70c7f1d212",
+   "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
+   "link": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-24T11:25:39+00:00"
   }
  ],
  "posts": [
-  "2026-09-24",
   "2026-09-25",
   "2026-09-26",
   "2026-09-27",
@@ -1056,6 +1087,7 @@
   "2026-10-20",
   "2026-10-21",
   "2026-10-22",
-  "2026-10-23"
+  "2026-10-23",
+  "2026-10-24"
  ]
 }
