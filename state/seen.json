@@ -1088,10 +1088,41 @@
    "source": "bleeping",
    "kind": "also",
    "at": "2026-10-25T11:54:23+00:00"
+  },
+  {
+   "id": "1917521dcc6ac424",
+   "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+   "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+   "source": "bleeping",
+   "kind": "story",
+   "at": "2026-10-26T13:26:44+00:00"
+  },
+  {
+   "id": "bafe8233f77a8b00",
+   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-26T13:26:44+00:00"
+  },
+  {
+   "id": "69153be8d8993120",
+   "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+   "link": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-26T13:26:44+00:00"
+  },
+  {
+   "id": "499a9d1b27f5e957",
+   "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+   "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-10-26T13:26:44+00:00"
   }
  ],
  "posts": [
-  "2026-09-26",
   "2026-09-27",
   "2026-09-28",
   "2026-09-29",
@@ -1120,6 +1151,7 @@
   "2026-10-22",
   "2026-10-23",
   "2026-10-24",
-  "2026-10-25"
+  "2026-10-25",
+  "2026-10-26"
  ]
 }
