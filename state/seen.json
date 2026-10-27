@@ -1120,10 +1120,41 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-10-26T13:26:44+00:00"
+  },
+  {
+   "id": "32e8e78bd03db520",
+   "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+   "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-27T12:33:51+00:00"
+  },
+  {
+   "id": "865d727c09733149",
+   "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-27T12:33:51+00:00"
+  },
+  {
+   "id": "1483a4ee42e5a9c5",
+   "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
+   "link": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-10-27T12:33:51+00:00"
+  },
+  {
+   "id": "277318e5e0feb42d",
+   "title": "CISA KEV: PHP Group PHP — PHP Memory Corruption Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-109618",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-27T12:33:51+00:00"
   }
  ],
  "posts": [
-  "2026-09-27",
   "2026-09-28",
   "2026-09-29",
   "2026-09-30",
@@ -1152,6 +1183,7 @@
   "2026-10-23",
   "2026-10-24",
   "2026-10-25",
-  "2026-10-26"
+  "2026-10-26",
+  "2026-10-27"
  ]
 }
