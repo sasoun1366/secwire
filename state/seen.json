@@ -1152,10 +1152,41 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-27T12:33:51+00:00"
+  },
+  {
+   "id": "ee5d08a904b97bf5",
+   "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+   "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-28T13:21:49+00:00"
+  },
+  {
+   "id": "52d6b2398c83a589",
+   "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-10-28T13:21:49+00:00"
+  },
+  {
+   "id": "86e21bd935579de8",
+   "title": "CISA KEV: Adobe Commerce and Magento — Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-48356",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-28T13:21:49+00:00"
+  },
+  {
+   "id": "262f2bf4b5e8094f",
+   "title": "CISA KEV: Google Brotli — Google Brotli Unchecked Return Value Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-111497",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-28T13:21:49+00:00"
   }
  ],
  "posts": [
-  "2026-09-28",
   "2026-09-29",
   "2026-09-30",
   "2026-10-01",
@@ -1184,6 +1215,7 @@
   "2026-10-24",
   "2026-10-25",
   "2026-10-26",
-  "2026-10-27"
+  "2026-10-27",
+  "2026-10-28"
  ]
 }
