@@ -1248,10 +1248,41 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-30T13:19:52+00:00"
+  },
+  {
+   "id": "6b80993e6b512bcf",
+   "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+   "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-10-31T12:56:16+00:00"
+  },
+  {
+   "id": "3a621d0b9596af61",
+   "title": "CISA KEV: Ivanti Connect Secure — Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-111357",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-31T12:56:16+00:00"
+  },
+  {
+   "id": "c907e5a9cc439d38",
+   "title": "CISA KEV: Ivanti Connect Secure — Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-118527",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-31T12:56:16+00:00"
+  },
+  {
+   "id": "0435997a0826ea8b",
+   "title": "CISA KEV: Linux Kernel — Linux Kernel Missing Initialization of a Variable Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-46300",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-10-31T12:56:16+00:00"
   }
  ],
  "posts": [
-  "2026-10-01",
   "2026-10-02",
   "2026-10-03",
   "2026-10-04",
@@ -1280,6 +1311,7 @@
   "2026-10-27",
   "2026-10-28",
   "2026-10-29",
-  "2026-10-30"
+  "2026-10-30",
+  "2026-10-31"
  ]
 }
