@@ -1280,10 +1280,41 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-10-31T12:56:16+00:00"
+  },
+  {
+   "id": "2e41301a7f04ee01",
+   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-11-01T13:41:30+00:00"
+  },
+  {
+   "id": "8f1d232cbe339f61",
+   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-01T13:41:30+00:00"
+  },
+  {
+   "id": "e1a1eee6306fe84d",
+   "title": "CISA KEV: GitLab Community Edition and Enterprise Edition — GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-97229",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-11-01T13:41:30+00:00"
+  },
+  {
+   "id": "e729a4a18855f29d",
+   "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+   "link": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-01T13:41:30+00:00"
   }
  ],
  "posts": [
-  "2026-10-02",
   "2026-10-03",
   "2026-10-04",
   "2026-10-05",
@@ -1312,6 +1343,7 @@
   "2026-10-28",
   "2026-10-29",
   "2026-10-30",
-  "2026-10-31"
+  "2026-10-31",
+  "2026-11-01"
  ]
 }
