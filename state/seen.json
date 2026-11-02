@@ -1312,10 +1312,41 @@
    "source": "secweek",
    "kind": "also",
    "at": "2026-11-01T13:41:30+00:00"
+  },
+  {
+   "id": "9ec449b04a541b6f",
+   "title": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+   "link": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+   "source": "secweek",
+   "kind": "story",
+   "at": "2026-11-02T16:26:29+00:00"
+  },
+  {
+   "id": "3caac7080dc4952d",
+   "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+   "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-02T16:26:29+00:00"
+  },
+  {
+   "id": "42d71a4036674e26",
+   "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-02T16:26:29+00:00"
+  },
+  {
+   "id": "cff61f9a90cdc7d7",
+   "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+   "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-02T16:26:29+00:00"
   }
  ],
  "posts": [
-  "2026-10-03",
   "2026-10-04",
   "2026-10-05",
   "2026-10-06",
@@ -1344,6 +1375,7 @@
   "2026-10-29",
   "2026-10-30",
   "2026-10-31",
-  "2026-11-01"
+  "2026-11-01",
+  "2026-11-02"
  ]
 }
