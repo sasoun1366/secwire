@@ -1344,10 +1344,33 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-11-02T16:26:29+00:00"
+  },
+  {
+   "id": "11203222907586d0",
+   "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+   "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-11-03T14:32:28+00:00"
+  },
+  {
+   "id": "15c9280bca277ce7",
+   "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-03T14:32:28+00:00"
+  },
+  {
+   "id": "0a8cdac447201000",
+   "title": "Critical Node-RED Flaw Exploited in Attacks",
+   "link": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-03T14:32:28+00:00"
   }
  ],
  "posts": [
-  "2026-10-04",
   "2026-10-05",
   "2026-10-06",
   "2026-10-07",
@@ -1376,6 +1399,7 @@
   "2026-10-30",
   "2026-10-31",
   "2026-11-01",
-  "2026-11-02"
+  "2026-11-02",
+  "2026-11-03"
  ]
 }
