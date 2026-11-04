@@ -1368,10 +1368,41 @@
    "source": "secweek",
    "kind": "also",
    "at": "2026-11-03T14:32:28+00:00"
+  },
+  {
+   "id": "55fefe05988408ae",
+   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "story",
+   "at": "2026-11-04T14:47:10+00:00"
+  },
+  {
+   "id": "5de5fce636517052",
+   "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+   "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-04T14:47:10+00:00"
+  },
+  {
+   "id": "3efad88d7959ee23",
+   "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+   "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-04T14:47:10+00:00"
+  },
+  {
+   "id": "6bd3caf46c9fe07a",
+   "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+   "link": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-04T14:47:10+00:00"
   }
  ],
  "posts": [
-  "2026-10-05",
   "2026-10-06",
   "2026-10-07",
   "2026-10-08",
@@ -1400,6 +1431,7 @@
   "2026-10-31",
   "2026-11-01",
   "2026-11-02",
-  "2026-11-03"
+  "2026-11-03",
+  "2026-11-04"
  ]
 }
