@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "34c59567cc266380",
-   "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-   "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-   "source": "thn",
-   "kind": "story",
-   "at": "2026-09-22T06:50:48+00:00"
-  },
-  {
-   "id": "c822fef53c561228",
-   "title": "CISA KEV: Zyxel GS1900 Series Switches — Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2026-7273",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-09-22T06:50:48+00:00"
-  },
-  {
-   "id": "999307a747558db8",
-   "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
-   "link": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
-   "source": "darkread",
-   "kind": "also",
-   "at": "2026-09-22T06:50:48+00:00"
-  },
-  {
-   "id": "3a11fc25363c5c36",
-   "title": "CISA alerts of active exploitation of three Linux kernel flaws",
-   "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-   "source": "bleeping",
-   "kind": "also",
-   "at": "2026-09-22T06:50:48+00:00"
-  },
-  {
    "id": "2abdfca3fba2ad80",
    "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
    "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
@@ -1432,10 +1400,41 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-11-05T14:51:37+00:00"
+  },
+  {
+   "id": "6a80400075813e00",
+   "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+   "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-11-06T14:29:52+00:00"
+  },
+  {
+   "id": "079c39f60933c64d",
+   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+   "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-06T14:29:52+00:00"
+  },
+  {
+   "id": "a2ac72706ded7f49",
+   "title": "CISA KEV: WordPress WordPress Core — WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-119977",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-11-06T14:29:52+00:00"
+  },
+  {
+   "id": "91ac1e9f7cb0f900",
+   "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+   "link": "https://isc.sans.edu/diary/rss/33492",
+   "source": "sansisc",
+   "kind": "also",
+   "at": "2026-11-06T14:29:52+00:00"
   }
  ],
  "posts": [
-  "2026-10-07",
   "2026-10-08",
   "2026-10-09",
   "2026-10-10",
@@ -1464,6 +1463,7 @@
   "2026-11-02",
   "2026-11-03",
   "2026-11-04",
-  "2026-11-05"
+  "2026-11-05",
+  "2026-11-06"
  ]
 }
