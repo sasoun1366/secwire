@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "2abdfca3fba2ad80",
-   "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
-   "source": "bleeping",
-   "kind": "story",
-   "at": "2026-09-23T11:57:18+00:00"
-  },
-  {
-   "id": "06ff9d82d2cf9335",
-   "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-   "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-09-23T11:57:18+00:00"
-  },
-  {
-   "id": "98c1cbf5ac5ec472",
-   "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
-   "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-09-23T11:57:18+00:00"
-  },
-  {
-   "id": "429f19f49f095125",
-   "title": "CISA KEV: Check Point Multiple Products — Check Point Multiple Products Improper Certificate Validation Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2026-85102",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-09-23T11:57:18+00:00"
-  },
-  {
    "id": "b7cca0c3f4dbec48",
    "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
    "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
@@ -1432,10 +1400,41 @@
    "source": "sansisc",
    "kind": "also",
    "at": "2026-11-06T14:29:52+00:00"
+  },
+  {
+   "id": "240dbe2506f580b4",
+   "title": "CISA KEV: SonicWall SonicOS SSLVPN — SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+   "link": "https://www.cve.org/CVERecord?id=CVE-2026-19868",
+   "source": "cisakev",
+   "kind": "story",
+   "at": "2026-11-07T13:24:58+00:00"
+  },
+  {
+   "id": "5c5e9bb0b1fa603f",
+   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+   "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-07T13:24:58+00:00"
+  },
+  {
+   "id": "dd02ae6c2d6ab916",
+   "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+   "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-07T13:24:58+00:00"
+  },
+  {
+   "id": "d9313acc2d0e025f",
+   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-07T13:24:58+00:00"
   }
  ],
  "posts": [
-  "2026-10-08",
   "2026-10-09",
   "2026-10-10",
   "2026-10-11",
@@ -1464,6 +1463,7 @@
   "2026-11-03",
   "2026-11-04",
   "2026-11-05",
-  "2026-11-06"
+  "2026-11-06",
+  "2026-11-07"
  ]
 }
