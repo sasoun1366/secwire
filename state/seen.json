@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "b7cca0c3f4dbec48",
-   "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
-   "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
-   "source": "bleeping",
-   "kind": "story",
-   "at": "2026-09-24T12:05:08+00:00"
-  },
-  {
-   "id": "c17ce8b999b89e70",
-   "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-   "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-09-24T12:05:08+00:00"
-  },
-  {
-   "id": "2b4d555d07de2fd8",
-   "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-   "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-09-24T12:05:08+00:00"
-  },
-  {
-   "id": "3717b5cb53df4472",
-   "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-   "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-09-24T12:05:08+00:00"
-  },
-  {
    "id": "1278e8f4cf553f0b",
    "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
    "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
@@ -1432,10 +1400,41 @@
    "source": "bleeping",
    "kind": "also",
    "at": "2026-11-07T13:24:58+00:00"
+  },
+  {
+   "id": "bba05fc1c9a95d0c",
+   "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+   "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-11-08T13:45:04+00:00"
+  },
+  {
+   "id": "6b27e4b0b5c0948a",
+   "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+   "link": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-08T13:45:04+00:00"
+  },
+  {
+   "id": "71d2d4992692edcf",
+   "title": "Fake security tools on GitHub push backdoors and infostealers",
+   "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-08T13:45:04+00:00"
+  },
+  {
+   "id": "b30706579ad45000",
+   "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+   "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-08T13:45:04+00:00"
   }
  ],
  "posts": [
-  "2026-10-09",
   "2026-10-10",
   "2026-10-11",
   "2026-10-12",
@@ -1464,6 +1463,7 @@
   "2026-11-04",
   "2026-11-05",
   "2026-11-06",
-  "2026-11-07"
+  "2026-11-07",
+  "2026-11-08"
  ]
 }
