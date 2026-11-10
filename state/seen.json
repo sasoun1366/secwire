@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "6a6d8192e3eeafd9",
-   "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-   "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-   "source": "thn",
-   "kind": "story",
-   "at": "2026-09-26T11:41:06+00:00"
-  },
-  {
-   "id": "15f4b6e5d2d90872",
-   "title": "CISA KEV: MikroTik RouterOS — Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2026-67279",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-09-26T11:41:06+00:00"
-  },
-  {
-   "id": "8b8ae8fe5d85b289",
-   "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
-   "source": "bleeping",
-   "kind": "also",
-   "at": "2026-09-26T11:41:06+00:00"
-  },
-  {
-   "id": "c40b8a6c5e51b7f8",
-   "title": "CISA KEV: Microsoft SharePoint — Microsoft SharePoint Code Injection Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2026-65660",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-09-26T11:41:06+00:00"
-  },
-  {
    "id": "a40b40066cc768f8",
    "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
    "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
@@ -1432,10 +1400,41 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-11-09T16:44:50+00:00"
+  },
+  {
+   "id": "cf2bb4ac6ba1d6ee",
+   "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+   "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-11-10T15:08:00+00:00"
+  },
+  {
+   "id": "2908eecb67331f82",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-11-10T15:08:00+00:00"
+  },
+  {
+   "id": "995af98fe3e62063",
+   "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+   "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-10T15:08:00+00:00"
+  },
+  {
+   "id": "5320adadb4d6b565",
+   "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
+   "link": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-10T15:08:00+00:00"
   }
  ],
  "posts": [
-  "2026-10-11",
   "2026-10-12",
   "2026-10-13",
   "2026-10-14",
@@ -1464,6 +1463,7 @@
   "2026-11-06",
   "2026-11-07",
   "2026-11-08",
-  "2026-11-09"
+  "2026-11-09",
+  "2026-11-10"
  ]
 }
