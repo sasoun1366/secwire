@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "a40b40066cc768f8",
-   "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-   "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-   "source": "thn",
-   "kind": "story",
-   "at": "2026-09-27T12:18:40+00:00"
-  },
-  {
-   "id": "b6bd22afa24f9b57",
-   "title": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
-   "link": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
-   "source": "secweek",
-   "kind": "also",
-   "at": "2026-09-27T12:18:40+00:00"
-  },
-  {
-   "id": "bb61ba1bb862a5c6",
-   "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-   "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-   "source": "bleeping",
-   "kind": "also",
-   "at": "2026-09-27T12:18:40+00:00"
-  },
-  {
-   "id": "a10a315dc60441d6",
-   "title": "CISA KEV: WordPress Core — WordPress Core Remote File Inclusion Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2026-87902",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-09-27T12:18:40+00:00"
-  },
-  {
    "id": "434201865b622064",
    "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
    "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
@@ -1432,10 +1400,41 @@
    "source": "secweek",
    "kind": "also",
    "at": "2026-11-10T15:08:00+00:00"
+  },
+  {
+   "id": "5599f1a73ede377b",
+   "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+   "source": "bleeping",
+   "kind": "story",
+   "at": "2026-11-11T14:38:31+00:00"
+  },
+  {
+   "id": "6f9294a9ae8c159c",
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-11T14:38:31+00:00"
+  },
+  {
+   "id": "86e01cde02c65d49",
+   "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-11-11T14:38:31+00:00"
+  },
+  {
+   "id": "aa736acec3c7e835",
+   "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-11T14:38:31+00:00"
   }
  ],
  "posts": [
-  "2026-10-12",
   "2026-10-13",
   "2026-10-14",
   "2026-10-15",
@@ -1464,6 +1463,7 @@
   "2026-11-07",
   "2026-11-08",
   "2026-11-09",
-  "2026-11-10"
+  "2026-11-10",
+  "2026-11-11"
  ]
 }
