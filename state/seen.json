@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "aef294584b0e31f5",
-   "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
-   "source": "bleeping",
-   "kind": "story",
-   "at": "2026-09-29T13:12:58+00:00"
-  },
-  {
-   "id": "a497319f060a1ad8",
-   "title": "CISA KEV: Citrix NetScaler — Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2026-88772",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-09-29T13:12:58+00:00"
-  },
-  {
-   "id": "de67cb0f3372a74f",
-   "title": "US, UK warn of exploited Citrix NetScaler zero-day bugs",
-   "link": "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
-   "source": "record",
-   "kind": "also",
-   "at": "2026-09-29T13:12:58+00:00"
-  },
-  {
-   "id": "6d2fcf43e32d120c",
-   "title": "Apple Patches Zero-Day Linked to ‘Extremely Sophisticated Attack’",
-   "link": "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/",
-   "source": "secweek",
-   "kind": "also",
-   "at": "2026-09-29T13:12:58+00:00"
-  },
-  {
    "id": "aa18d78eb3f18284",
    "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
@@ -1432,10 +1400,41 @@
    "source": "krebs",
    "kind": "also",
    "at": "2026-11-12T15:30:20+00:00"
+  },
+  {
+   "id": "37cbf7c26bffe979",
+   "title": "Siemens Building Automation and Energy Products",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+   "source": "cisakev",
+   "kind": "story",
+   "at": "2026-11-13T14:48:32+00:00"
+  },
+  {
+   "id": "52ad3fd4065dba05",
+   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+   "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-13T14:48:32+00:00"
+  },
+  {
+   "id": "5a47ee7f0ad92a86",
+   "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-13T14:48:32+00:00"
+  },
+  {
+   "id": "83bdf566ef1151f4",
+   "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+   "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-13T14:48:32+00:00"
   }
  ],
  "posts": [
-  "2026-10-14",
   "2026-10-15",
   "2026-10-16",
   "2026-10-17",
@@ -1464,6 +1463,7 @@
   "2026-11-09",
   "2026-11-10",
   "2026-11-11",
-  "2026-11-12"
+  "2026-11-12",
+  "2026-11-13"
  ]
 }
