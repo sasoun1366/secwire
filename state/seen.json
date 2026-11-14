@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "aa18d78eb3f18284",
-   "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-   "source": "bleeping",
-   "kind": "story",
-   "at": "2026-09-30T12:53:28+00:00"
-  },
-  {
-   "id": "d928ca2724e6abe5",
-   "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
-   "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-09-30T12:53:28+00:00"
-  },
-  {
-   "id": "31cdedd73f657e0d",
-   "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
-   "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
-   "source": "darkread",
-   "kind": "also",
-   "at": "2026-09-30T12:53:28+00:00"
-  },
-  {
-   "id": "7ccb1670df326d8e",
-   "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-   "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-09-30T12:53:28+00:00"
-  },
-  {
    "id": "bc43c2f4986fc8d9",
    "title": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability",
    "link": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
@@ -1432,10 +1400,41 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-11-13T14:48:32+00:00"
+  },
+  {
+   "id": "cfe826a39bc8b512",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "source": "cisakev",
+   "kind": "story",
+   "at": "2026-11-14T13:44:05+00:00"
+  },
+  {
+   "id": "a1ec55621f7af0dd",
+   "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+   "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-14T13:44:05+00:00"
+  },
+  {
+   "id": "4f64b874459cdd26",
+   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+   "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-14T13:44:05+00:00"
+  },
+  {
+   "id": "28a3035fb3712165",
+   "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+   "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-14T13:44:05+00:00"
   }
  ],
  "posts": [
-  "2026-10-15",
   "2026-10-16",
   "2026-10-17",
   "2026-10-18",
@@ -1464,6 +1463,7 @@
   "2026-11-10",
   "2026-11-11",
   "2026-11-12",
-  "2026-11-13"
+  "2026-11-13",
+  "2026-11-14"
  ]
 }
