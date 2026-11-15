@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "bc43c2f4986fc8d9",
-   "title": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability",
-   "link": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
-   "source": "secweek",
-   "kind": "story",
-   "at": "2026-10-01T13:44:49+00:00"
-  },
-  {
-   "id": "668cd64f89b8bdf3",
-   "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-   "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-10-01T13:44:49+00:00"
-  },
-  {
-   "id": "c9aca720d6cdef3c",
-   "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
-   "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-10-01T13:44:49+00:00"
-  },
-  {
-   "id": "6498a57efa293b89",
-   "title": "CISA KEV: Cisco Catalyst SD-WAN Manager — Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2026-76504",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-10-01T13:44:49+00:00"
-  },
-  {
    "id": "cb50d799370a96b7",
    "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
    "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
@@ -1432,10 +1400,41 @@
    "source": "secweek",
    "kind": "also",
    "at": "2026-11-14T13:44:05+00:00"
+  },
+  {
+   "id": "beb9607857151e95",
+   "title": "Siemens Desigo, Gridscale",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+   "source": "cisakev",
+   "kind": "story",
+   "at": "2026-11-15T14:13:01+00:00"
+  },
+  {
+   "id": "72452bba0ac56efa",
+   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+   "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-15T14:13:01+00:00"
+  },
+  {
+   "id": "4e70468572321887",
+   "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+   "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-15T14:13:01+00:00"
+  },
+  {
+   "id": "7cf650eedeb322d7",
+   "title": "Check Point warns of zero-day flaw exploited for root access",
+   "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-15T14:13:01+00:00"
   }
  ],
  "posts": [
-  "2026-10-16",
   "2026-10-17",
   "2026-10-18",
   "2026-10-19",
@@ -1464,6 +1463,7 @@
   "2026-11-11",
   "2026-11-12",
   "2026-11-13",
-  "2026-11-14"
+  "2026-11-14",
+  "2026-11-15"
  ]
 }
