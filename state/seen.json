@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "db7f7c47d2b89c52",
-   "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
-   "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-   "source": "thn",
-   "kind": "story",
-   "at": "2026-10-03T11:53:41+00:00"
-  },
-  {
-   "id": "bf94b862b88382ea",
-   "title": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
-   "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
-   "source": "darkread",
-   "kind": "also",
-   "at": "2026-10-03T11:53:41+00:00"
-  },
-  {
-   "id": "ee50a3af8e68a0e8",
-   "title": "CISA KEV: Zammad GmbH Zammad — Zammad GmbH Zammad Improper Privilege Management Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2026-102490",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-10-03T11:53:41+00:00"
-  },
-  {
-   "id": "6f4e74eae7a5e561",
-   "title": "CISA KEV: Zammad GmbH Zammad — Zammad GmbH Zammad Session Fixation Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2026-102489",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-10-03T11:53:41+00:00"
-  },
-  {
    "id": "77526c75d53d4659",
    "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
    "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
@@ -1432,10 +1400,25 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-11-16T16:16:31+00:00"
+  },
+  {
+   "id": "bf6a9bddb412b3b1",
+   "title": "Dorsett Controls InfoScan",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+   "source": "cisakev",
+   "kind": "story",
+   "at": "2026-11-17T16:21:37+00:00"
+  },
+  {
+   "id": "22c6bc9bc970fa37",
+   "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+   "link": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-17T16:21:37+00:00"
   }
  ],
  "posts": [
-  "2026-10-18",
   "2026-10-19",
   "2026-10-20",
   "2026-10-21",
@@ -1464,6 +1447,7 @@
   "2026-11-13",
   "2026-11-14",
   "2026-11-15",
-  "2026-11-16"
+  "2026-11-16",
+  "2026-11-17"
  ]
 }
