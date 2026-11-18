@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "77526c75d53d4659",
-   "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
-   "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-   "source": "thn",
-   "kind": "story",
-   "at": "2026-10-04T12:44:55+00:00"
-  },
-  {
-   "id": "92ed1c9c74c0a425",
-   "title": "Frontline Education breach exposes school district employee data",
-   "link": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
-   "source": "bleeping",
-   "kind": "also",
-   "at": "2026-10-04T12:44:55+00:00"
-  },
-  {
-   "id": "80508fcaa7c469c2",
-   "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
-   "source": "bleeping",
-   "kind": "also",
-   "at": "2026-10-04T12:44:55+00:00"
-  },
-  {
-   "id": "cdad6b5a084ca828",
-   "title": "'Warlock' ransomware used in attacks on critical infrastructure in Portuguese, Spanish-speaking countries",
-   "link": "https://therecord.media/warlock-ransomware-used-in-critical-infrastructure-attacks",
-   "source": "record",
-   "kind": "also",
-   "at": "2026-10-04T12:44:55+00:00"
-  },
-  {
    "id": "58227cbb8a27da19",
    "title": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
    "link": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
@@ -1416,10 +1384,41 @@
    "source": "secweek",
    "kind": "also",
    "at": "2026-11-17T16:21:37+00:00"
+  },
+  {
+   "id": "efce9651e364dda9",
+   "title": "Siemens Industrial Automation Software Products",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+   "source": "cisakev",
+   "kind": "story",
+   "at": "2026-11-18T15:53:50+00:00"
+  },
+  {
+   "id": "cbf3dd5157f8cf31",
+   "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+   "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-18T15:53:50+00:00"
+  },
+  {
+   "id": "49c53af58b82059d",
+   "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+   "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-18T15:53:50+00:00"
+  },
+  {
+   "id": "c671e78528562238",
+   "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-18T15:53:50+00:00"
   }
  ],
  "posts": [
-  "2026-10-19",
   "2026-10-20",
   "2026-10-21",
   "2026-10-22",
@@ -1448,6 +1447,7 @@
   "2026-11-14",
   "2026-11-15",
   "2026-11-16",
-  "2026-11-17"
+  "2026-11-17",
+  "2026-11-18"
  ]
 }
