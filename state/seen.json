@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "58227cbb8a27da19",
-   "title": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
-   "link": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
-   "source": "secweek",
-   "kind": "story",
-   "at": "2026-10-05T15:07:14+00:00"
-  },
-  {
-   "id": "0a01156a9b1f4f0d",
-   "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-   "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-10-05T15:07:14+00:00"
-  },
-  {
-   "id": "45861f91325a3872",
-   "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
-   "source": "bleeping",
-   "kind": "also",
-   "at": "2026-10-05T15:07:14+00:00"
-  },
-  {
-   "id": "5b6f73cea52d2599",
-   "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
-   "link": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-10-05T15:07:14+00:00"
-  },
-  {
    "id": "48a951917d99093a",
    "title": "Microsoft Exchange Flaw Lets Authenticated Attackers",
    "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
@@ -1416,10 +1384,41 @@
    "source": "bleeping",
    "kind": "also",
    "at": "2026-11-18T15:53:50+00:00"
+  },
+  {
+   "id": "7e887388202f47b7",
+   "title": "Elecbrakes EB2, VM1, ELBC2000",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+   "source": "cisakev",
+   "kind": "story",
+   "at": "2026-11-19T15:57:59+00:00"
+  },
+  {
+   "id": "836cb5301c994712",
+   "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+   "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-19T15:57:59+00:00"
+  },
+  {
+   "id": "22cb35e8cc37f77f",
+   "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+   "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-19T15:57:59+00:00"
+  },
+  {
+   "id": "be44e41250a49d2f",
+   "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+   "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+   "source": "thn",
+   "kind": "also",
+   "at": "2026-11-19T15:57:59+00:00"
   }
  ],
  "posts": [
-  "2026-10-20",
   "2026-10-21",
   "2026-10-22",
   "2026-10-23",
@@ -1448,6 +1447,7 @@
   "2026-11-15",
   "2026-11-16",
   "2026-11-17",
-  "2026-11-18"
+  "2026-11-18",
+  "2026-11-19"
  ]
 }
