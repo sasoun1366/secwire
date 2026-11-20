@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "48a951917d99093a",
-   "title": "Microsoft Exchange Flaw Lets Authenticated Attackers",
-   "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
-   "source": "thn",
-   "kind": "story",
-   "at": "2026-10-06T13:30:43+00:00"
-  },
-  {
-   "id": "d33aae9c6e8c9254",
-   "title": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
-   "link": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
-   "source": "secweek",
-   "kind": "also",
-   "at": "2026-10-06T13:30:43+00:00"
-  },
-  {
-   "id": "63221891d554bc06",
-   "title": "Exploitation Hits Rejetto HFS Vulnerability Discovered by AI",
-   "link": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
-   "source": "secweek",
-   "kind": "also",
-   "at": "2026-10-06T13:30:43+00:00"
-  },
-  {
-   "id": "02684efd92aca14e",
-   "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
-   "link": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
-   "source": "darkread",
-   "kind": "also",
-   "at": "2026-10-06T13:30:43+00:00"
-  },
-  {
    "id": "4d274a6471f0a92c",
    "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
    "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
@@ -1416,10 +1384,41 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-11-19T15:57:59+00:00"
+  },
+  {
+   "id": "388bc3175898c1e2",
+   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+   "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-11-20T15:40:56+00:00"
+  },
+  {
+   "id": "f9f694d8c9af03b8",
+   "title": "VMware patches vCenter zero-day exploited in attacks since September",
+   "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-20T15:40:56+00:00"
+  },
+  {
+   "id": "f65c35e5f805a5dc",
+   "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+   "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-20T15:40:56+00:00"
+  },
+  {
+   "id": "aeaf59f06cb803e1",
+   "title": "Autonomy Logic OpenPLC Runtime",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-11-20T15:40:56+00:00"
   }
  ],
  "posts": [
-  "2026-10-21",
   "2026-10-22",
   "2026-10-23",
   "2026-10-24",
@@ -1448,6 +1447,7 @@
   "2026-11-16",
   "2026-11-17",
   "2026-11-18",
-  "2026-11-19"
+  "2026-11-19",
+  "2026-11-20"
  ]
 }
