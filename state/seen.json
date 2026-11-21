@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "4d274a6471f0a92c",
-   "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
-   "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
-   "source": "thn",
-   "kind": "story",
-   "at": "2026-10-07T13:43:26+00:00"
-  },
-  {
-   "id": "f917920ce3e22647",
-   "title": "Advantest Discloses Data Breach Months After Ransomware Attack",
-   "link": "https://www.securityweek.com/advantest-discloses-data-breach-months-after-ransomware-attack/",
-   "source": "secweek",
-   "kind": "also",
-   "at": "2026-10-07T13:43:26+00:00"
-  },
-  {
-   "id": "4e661a7d2612da92",
-   "title": "Hackers exploit critical Atlassian flaw after public PoC release",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
-   "source": "bleeping",
-   "kind": "also",
-   "at": "2026-10-07T13:43:26+00:00"
-  },
-  {
-   "id": "ee7b5381a8a457d2",
-   "title": "ASOS confirms data breach after “HACKED” in-app notifications",
-   "link": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
-   "source": "bleeping",
-   "kind": "also",
-   "at": "2026-10-07T13:43:26+00:00"
-  },
-  {
    "id": "4e5f96420791d773",
    "title": "ASOS links data breach to social engineering attack, credential theft",
    "link": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
@@ -1416,10 +1384,41 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-11-20T15:40:56+00:00"
+  },
+  {
+   "id": "312f763b11e87ba2",
+   "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-11-21T14:51:15+00:00"
+  },
+  {
+   "id": "704a5a3ae847f6cd",
+   "title": "libumqtt",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-11-21T14:51:15+00:00"
+  },
+  {
+   "id": "3d2872edeb67ca55",
+   "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+   "link": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-21T14:51:15+00:00"
+  },
+  {
+   "id": "4205287fe129ed0d",
+   "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+   "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-21T14:51:15+00:00"
   }
  ],
  "posts": [
-  "2026-10-22",
   "2026-10-23",
   "2026-10-24",
   "2026-10-25",
@@ -1448,6 +1447,7 @@
   "2026-11-17",
   "2026-11-18",
   "2026-11-19",
-  "2026-11-20"
+  "2026-11-20",
+  "2026-11-21"
  ]
 }
