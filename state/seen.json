@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "4e5f96420791d773",
-   "title": "ASOS links data breach to social engineering attack, credential theft",
-   "link": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
-   "source": "bleeping",
-   "kind": "story",
-   "at": "2026-10-08T13:51:41+00:00"
-  },
-  {
-   "id": "46db7504e0a90c31",
-   "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-   "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-10-08T13:51:41+00:00"
-  },
-  {
-   "id": "d604263512d86c0a",
-   "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-   "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-10-08T13:51:41+00:00"
-  },
-  {
-   "id": "f20d774a23f2408d",
-   "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
-   "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
-   "source": "thn",
-   "kind": "also",
-   "at": "2026-10-08T13:51:41+00:00"
-  },
-  {
    "id": "d4da7d510c5f786c",
    "title": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
    "link": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
@@ -1416,10 +1384,33 @@
    "source": "bleeping",
    "kind": "also",
    "at": "2026-11-21T14:51:15+00:00"
+  },
+  {
+   "id": "056539ea2c371d1c",
+   "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-11-22T14:47:27+00:00"
+  },
+  {
+   "id": "7c3dfbb45a3cf231",
+   "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+   "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-22T14:47:27+00:00"
+  },
+  {
+   "id": "b19482f69df32d2f",
+   "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+   "link": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-22T14:47:27+00:00"
   }
  ],
  "posts": [
-  "2026-10-23",
   "2026-10-24",
   "2026-10-25",
   "2026-10-26",
@@ -1448,6 +1439,7 @@
   "2026-11-18",
   "2026-11-19",
   "2026-11-20",
-  "2026-11-21"
+  "2026-11-21",
+  "2026-11-22"
  ]
 }
