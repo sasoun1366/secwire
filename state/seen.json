@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "530cc2dcfd5512db",
-   "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
-   "link": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
-   "source": "thn",
-   "kind": "story",
-   "at": "2026-10-10T12:53:10+00:00"
-  },
-  {
-   "id": "79d636ff0f17e620",
-   "title": "CISA KEV: ISC BIND — ISC BIND Data Processing Errors Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2015-5477",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-10-10T12:53:10+00:00"
-  },
-  {
-   "id": "6cb1fa8c44c834c7",
-   "title": "CISA KEV: ONLYOFFICE Docs — ONLYOFFICE Docs Server Path Traversal Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2021-3199",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-10-10T12:53:10+00:00"
-  },
-  {
-   "id": "bf65b678c8380cb7",
-   "title": "CISA KEV: ProFTPD ProFTPD — ProFTPD Improper Access Control Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2015-3306",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-10-10T12:53:10+00:00"
-  },
-  {
    "id": "a735b9724a314b23",
    "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
    "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
@@ -1408,10 +1376,41 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-11-23T18:36:39+00:00"
+  },
+  {
+   "id": "e43faf84d7acdfd6",
+   "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+   "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-11-24T18:05:48+00:00"
+  },
+  {
+   "id": "88f5954ea4bdcb53",
+   "title": "AutomationDirect C-More EA9 Programming Software",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-11-24T18:05:48+00:00"
+  },
+  {
+   "id": "b445fa739172cbae",
+   "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+   "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-24T18:05:48+00:00"
+  },
+  {
+   "id": "e4e011c8228e5fd1",
+   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-11-24T18:05:48+00:00"
   }
  ],
  "posts": [
-  "2026-10-25",
   "2026-10-26",
   "2026-10-27",
   "2026-10-28",
@@ -1440,6 +1439,7 @@
   "2026-11-20",
   "2026-11-21",
   "2026-11-22",
-  "2026-11-23"
+  "2026-11-23",
+  "2026-11-24"
  ]
 }
