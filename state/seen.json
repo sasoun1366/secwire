@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "a735b9724a314b23",
-   "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-   "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
-   "source": "thn",
-   "kind": "story",
-   "at": "2026-10-11T13:17:08+00:00"
-  },
-  {
-   "id": "d842f8581fcf14ad",
-   "title": "CISA KEV: Strapi Strapi — Strapi Cleartext Storage of Sensitive Information Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2023-22894",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-10-11T13:17:08+00:00"
-  },
-  {
-   "id": "2870dadf2691af3f",
-   "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
-   "link": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
-   "source": "bleeping",
-   "kind": "also",
-   "at": "2026-10-11T13:17:08+00:00"
-  },
-  {
-   "id": "c284227b64f89481",
-   "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
-   "link": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
-   "source": "secweek",
-   "kind": "also",
-   "at": "2026-10-11T13:17:08+00:00"
-  },
-  {
    "id": "f8b5702c3552317a",
    "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
    "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
@@ -1408,10 +1376,41 @@
    "source": "cisakev",
    "kind": "also",
    "at": "2026-11-24T18:05:48+00:00"
+  },
+  {
+   "id": "e9cce93b1cb89ac6",
+   "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+   "source": "thn",
+   "kind": "story",
+   "at": "2026-11-25T17:29:50+00:00"
+  },
+  {
+   "id": "d2767434d3c5e80c",
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "source": "cisakev",
+   "kind": "also",
+   "at": "2026-11-25T17:29:50+00:00"
+  },
+  {
+   "id": "83aa62cee6bd3344",
+   "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+   "source": "bleeping",
+   "kind": "also",
+   "at": "2026-11-25T17:29:50+00:00"
+  },
+  {
+   "id": "021033f08faa023e",
+   "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+   "link": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-25T17:29:50+00:00"
   }
  ],
  "posts": [
-  "2026-10-26",
   "2026-10-27",
   "2026-10-28",
   "2026-10-29",
@@ -1440,6 +1439,7 @@
   "2026-11-21",
   "2026-11-22",
   "2026-11-23",
-  "2026-11-24"
+  "2026-11-24",
+  "2026-11-25"
  ]
 }
