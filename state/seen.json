@@ -2,38 +2,6 @@
  "version": 1,
  "entries": [
   {
-   "id": "f72aff283a5b0cfa",
-   "title": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
-   "link": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
-   "source": "secweek",
-   "kind": "story",
-   "at": "2026-10-14T12:14:22+00:00"
-  },
-  {
-   "id": "306538995694c425",
-   "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-   "source": "bleeping",
-   "kind": "also",
-   "at": "2026-10-14T12:14:22+00:00"
-  },
-  {
-   "id": "5caa6b4a3bd21742",
-   "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
-   "source": "bleeping",
-   "kind": "also",
-   "at": "2026-10-14T12:14:22+00:00"
-  },
-  {
-   "id": "066b0c6b10fea010",
-   "title": "CISA KEV: Ivanti Connect Secure — Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
-   "link": "https://www.cve.org/CVERecord?id=CVE-2026-104935",
-   "source": "cisakev",
-   "kind": "also",
-   "at": "2026-10-14T12:14:22+00:00"
-  },
-  {
    "id": "82d35d281de805fe",
    "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
    "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
@@ -1408,10 +1376,41 @@
    "source": "thn",
    "kind": "also",
    "at": "2026-11-27T16:54:40+00:00"
+  },
+  {
+   "id": "e682e9b1cc48f424",
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+   "source": "bleeping",
+   "kind": "story",
+   "at": "2026-11-28T15:45:11+00:00"
+  },
+  {
+   "id": "8c7946d3364fab91",
+   "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+   "link": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-28T15:45:11+00:00"
+  },
+  {
+   "id": "78bce2baa03bb937",
+   "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+   "link": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-28T15:45:11+00:00"
+  },
+  {
+   "id": "beaeee751179bc6c",
+   "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+   "link": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+   "source": "secweek",
+   "kind": "also",
+   "at": "2026-11-28T15:45:11+00:00"
   }
  ],
  "posts": [
-  "2026-10-29",
   "2026-10-30",
   "2026-10-31",
   "2026-11-01",
@@ -1440,6 +1439,7 @@
   "2026-11-24",
   "2026-11-25",
   "2026-11-26",
-  "2026-11-27"
+  "2026-11-27",
+  "2026-11-28"
  ]
 }
